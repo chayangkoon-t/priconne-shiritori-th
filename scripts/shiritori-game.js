@@ -592,14 +592,21 @@ function build_all_choices()
 
 function get_last_character(phrase)
 {
-    let last_character = phrase[phrase.length - 1] === "ー" ? phrase[phrase.length - 2] : phrase[phrase.length - 1];
-    if (last_character === "ィ") { last_character = "イ"; }
-    if (last_character === "ょ") { last_character = "よ"; }
-    if (last_character === "ゃ") { last_character = "や"; }
-    if (last_character === "ュ") { last_character = "ユ"; }
-    if (last_character === "ゅ") { last_character = "ゆ"; }
-    if (last_character === "ャ") { last_character = "や"; }
-    return wanakana.toHiragana(last_character);
+    var vowel1_list = ["ะ", "า", "ิ", "ี", "ึ", "ื", "ุ", "ู", "ำ", "าะ"]
+    // let last_character = phrase[phrase.length - 1] === "า" ? phrase[phrase.length - 2] : phrase[phrase.length - 1];
+    let last_character = phrase[phrase.length - 1];
+    var vowel_check = (vowel1_list.indexOf(last_character) > -1);
+    if (vowel_check > -1) { last_character = phrase[phrase.length - 2] }
+    if (phrase === "เกรป") { last_character = phrase[phrase.length - 3]; }
+
+    // if (last_character === "ィ") { last_character = "イ"; }
+    // if (last_character === "ょ") { last_character = "よ"; }
+    // if (last_character === "ゃ") { last_character = "や"; }
+    // if (last_character === "ュ") { last_character = "ユ"; }
+    // if (last_character === "ゅ") { last_character = "ゆ"; }
+    // if (last_character === "ャ") { last_character = "や"; }
+    // return wanakana.toHiragana(last_character);
+    return last_character;
 }
 
 function toggle_rush_mode()

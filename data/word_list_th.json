@@ -1,0 +1,1005 @@
+{
+  "apple": {
+    "futsuyomi": [ "リンゴ" ],
+    "urayomi": [ "アップル", "きんだんのかじつ" ],
+    "priconneyomi": [  ]
+  },
+  "gorilla": {
+    "futsuyomi": [ "กอริลลา" ],
+    "urayomi": [ "れいちょうるい", "うほうほ" ],
+    "priconneyomi": [ "マスター・ウキキー" ]
+  },
+  "trumpet": {
+    "futsuyomi": [ "แตร" ],
+    "urayomi": [ "ทรัมเป็ต", "かんがっき" ],
+    "priconneyomi": [  ]
+  },
+  "pineapple": {
+    "futsuyomi": [ "パイナップル" ],
+    "urayomi": [ "アナナス" ],
+    "priconneyomi": [  ]
+  },
+  "ruby": {
+    "futsuyomi": [ "ルビー", "ほうせき" ],
+    "urayomi": [ "ガーネット", "ジュエリー" ],
+    "priconneyomi": [ "アキノのブローチ", "こうきせきウィスタリア" ]
+  },
+  "beer": {
+    "futsuyomi": [ "ビールっぽいもの", "ジョッキ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "むぎしゅわ", "エターナルジョッキ" ]
+  },
+  "bow": {
+    "futsuyomi": [ "ゆみや" ],
+    "urayomi": [ "とびどうぐ", "アロー", "ボウ" ],
+    "priconneyomi": [  ]
+  },
+  "music": {
+    "futsuyomi": [ "おんぷ", "リズム" ],
+    "urayomi": [ "ミュージック", "うた", "ドレミ" ],
+    "priconneyomi": [  ]
+  },
+  "tube": {
+    "futsuyomi": [ "えのぐ" ],
+    "urayomi": [ "チューブ", "ブルー", "あおいえのぐ" ],
+    "priconneyomi": [  ]
+  },
+  "sword": {
+    "futsuyomi": [ "けん", "ソード" ],
+    "urayomi": [ "つるぎ", "はもの" ],
+    "priconneyomi": [ "プリンセスソード" ]
+  },
+  "glasses": {
+    "futsuyomi": [ "めがね" ],
+    "urayomi": [ "レンズ", "ビンぞこめがね", "ぐるぐるめがね" ],
+    "priconneyomi": [ "カリンのめがね" ]
+  },
+  "lens": {
+    "futsuyomi": [ "むしめがね", "レンズ", "ルーペ" ],
+    "urayomi": [ "ズーム" ],
+    "priconneyomi": [ "たんていのひっすアイテム", "ディテクティブルーペ" ]
+  },
+  "meat": {
+    "futsuyomi": [ "にく" ],
+    "urayomi": [ "りょうり", "ミート", "ほねつきにく" ],
+    "priconneyomi": [ "ドラゴンのにく" ]
+  },
+  "moon": {
+    "futsuyomi": [ "つき", "まんげつ" ],
+    "urayomi": [ "ムーン", "ルナ" ],
+    "priconneyomi": [ "めいげつ" ]
+  },
+  "bat": {
+    "futsuyomi": [ "こうもり", "バット" ],
+    "urayomi": [ "きゅうけつき" ],
+    "priconneyomi": [ "イリヤのけんぞく" ]
+  },
+  "bird": {
+    "futsuyomi": [ "とり", "まもの" ],
+    "urayomi": [ "バード" ],
+    "priconneyomi": [ "ジズ" ]
+  },
+  "shoes": {
+    "futsuyomi": [ "くつ", "ズック" ],
+    "urayomi": [ "シューズ", "かわぐつ", "ブーツ" ],
+    "priconneyomi": [  ]
+  },
+  "cat": {
+    "futsuyomi": [ "ねこ", "キャット" ],
+    "urayomi": [ "とらねこ", "にゃんこ" ],
+    "priconneyomi": [ "タマキのおともだち" ]
+  },
+  "goldfish": {
+    "futsuyomi": [ "きんぎょ", "おさかな", "さかな" ],
+    "urayomi": [ "らんちゅう" ],
+    "priconneyomi": [  ]
+  },
+  "mouse": {
+    "futsuyomi": [ "ねずみ", "マウス" ],
+    "urayomi": [ "ちゅーちゅー", "ラット" ],
+    "priconneyomi": [  ]
+  },
+  "egg": {
+    "futsuyomi": [ "たまご" ],
+    "urayomi": [ "エッグ", "こども", "とりのす" ],
+    "priconneyomi": [  ]
+  },
+  "boat": {
+    "futsuyomi": [ "ふね" ],
+    "urayomi": [ "クルージング", "はんせん", "シップ" ],
+    "priconneyomi": [  ]
+  },
+  "milk": {
+    "futsuyomi": [ "ぎゅうにゅう", "ミルク" ],
+    "urayomi": [ "おちち" ],
+    "priconneyomi": [ "エリザベス" ]
+  },
+  "chocolate": {
+    "futsuyomi": [ "チョコレート", "おかし" ],
+    "urayomi": [ "あまいもの", "カカオ" ],
+    "priconneyomi": [ "ドラちゃんのこうぶつ" ]
+  },
+  "acorn": {
+    "futsuyomi": [ "どんぐり", "きのみ" ],
+    "urayomi": [ "ナッツ" ],
+    "priconneyomi": [ "リンのおやつ" ]
+  },
+  "strawberry": {
+    "futsuyomi": [ "いちご", "ストロベリー" ],
+    "urayomi": [ "ジャム" ],
+    "priconneyomi": [  ]
+  },
+  "tiger": {
+    "futsuyomi": [ "とら", "タイガー" ],
+    "urayomi": [ "ねこ", "けもの" ],
+    "priconneyomi": [ "マツリのあこがれ", "むてきヒーロートラタイガー" ]
+  },
+  "rabbit": {
+    "futsuyomi": [ "ぬいぐるみ", "うさぎ", "にんぎょう" ],
+    "urayomi": [ "ラビット" ],
+    "priconneyomi": [ "アーサー" ]
+  },
+  "bomb": {
+    "futsuyomi": [ "ばくだん", "ボム" ],
+    "urayomi": [ "きけんぶつ", "とびどうぐ" ],
+    "priconneyomi": [ "ミソギのいたずらグッズ" ]
+  },
+  "watermelon": {
+    "futsuyomi": [ "すいか" ],
+    "urayomi": [ "こだますいか", "なつのふうぶつし" ],
+    "priconneyomi": [  ]
+  },
+  "horse": {
+    "futsuyomi": [ "うま", "ろば" ],
+    "urayomi": [ "ホース", "ぱかぱか", "サラブレッド" ],
+    "priconneyomi": [ "ムーバ" ]
+  },
+  "chair": {
+    "futsuyomi": [ "いす" ],
+    "urayomi": [ "かぐ", "チェア" ],
+    "priconneyomi": [ "ギルドハウスアイテム" ]
+  },
+  "sea": {
+    "futsuyomi": [ "うみ", "かいがん", "ビーチ" ],
+    "urayomi": [ "しおさい", "すなはま" ],
+    "priconneyomi": [ "マルジェンかいがん" ]
+  },
+  "crab": {
+    "futsuyomi": [ "やどかり" ],
+    "urayomi": [ "かいがら", "こうかくるい" ],
+    "priconneyomi": [ "ハーミットナイト" ]
+  },
+  "recorder": {
+    "futsuyomi": [ "ふえ", "リコーダー" ],
+    "urayomi": [ "かんがっき", "たてぶえ" ],
+    "priconneyomi": [  ]
+  },
+  "book": {
+    "futsuyomi": [ "ほん", "ノート" ],
+    "urayomi": [ "しょうせつ", "ブック" ],
+    "priconneyomi": [ "キャルのまどうしょ" ]
+  },
+  "fish": {
+    "futsuyomi": [ "さかな", "おさかな" ],
+    "urayomi": [ "かつお", "まぐろ", "フィッシュ", "うお" ],
+    "priconneyomi": [  ]
+  },
+  "tree": {
+    "futsuyomi": [ "ツリー", "クリスマス" ],
+    "urayomi": [ "もみのき", "キャロル" ],
+    "priconneyomi": [ "ぼうきゃくのキャロル" ]
+  },
+  "candy": {
+    "futsuyomi": [ "あめ", "キャンディ" ],
+    "urayomi": [ "ロリポップ" ],
+    "priconneyomi": [ "クロエのおやつ" ]
+  },
+  "hammer": {
+    "futsuyomi": [ "ハンマー", "ピコピコハンマー" ],
+    "urayomi": [ "かなづち", "こづち" ],
+    "priconneyomi": [ "イノリのえもの" ]
+  },
+  "star": {
+    "futsuyomi": [ "ดาว", "ごかくけい", "スター" ],
+    "urayomi": [ "ずけい", "ひとで", "きらきら" ],
+    "priconneyomi": [ "ランドソルのかたち" ]
+  },
+  "hat": {
+    "futsuyomi": [ "ぼうし", "ハット" ],
+    "urayomi": [ "やまたかぼう", "シルクハット" ],
+    "priconneyomi": [  ]
+  },
+  "cup": {
+    "futsuyomi": [ "カップ", "コーヒー" ],
+    "urayomi": [ "マグ" ],
+    "priconneyomi": [  ]
+  },
+  "dog": {
+    "futsuyomi": [ "いぬ", "ドッグ" ],
+    "urayomi": [ "おおかみ", "ウルフ", "わんこ" ],
+    "priconneyomi": [  ]
+  },
+  "flag": {
+    "futsuyomi": [ "はた", "フラッグ" ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "cake": {
+    "futsuyomi": [ "ケーキ", "おかし" ],
+    "urayomi": [ "ぎふと" ],
+    "priconneyomi": [ "きずなポイント", "ミックスベリーケーキ" ]
+  },
+  "microphone": {
+    "futsuyomi": [ "マイク", "うた", "ライブ" ],
+    "urayomi": [ "アイドルのひっすアイテム" ],
+    "priconneyomi": [ "ブリリアントマイク" ]
+  },
+  "lipstick": {
+    "futsuyomi": [ "くちべに", "リップ" ],
+    "urayomi": [ "ルージュ" ],
+    "priconneyomi": [  ]
+  },
+  "mochi": {
+    "futsuyomi": [ "もち", "おもち" ],
+    "urayomi": [ "かがみもち", "たんすいかぶつ", "ライスケーキ" ],
+    "priconneyomi": [  ]
+  },
+  "fairy": {
+    "futsuyomi": [ "ようせい" ],
+    "urayomi": [ "フェアリー" ],
+    "priconneyomi": [ "ネビア" ]
+  },
+  "umbrella": {
+    "futsuyomi": [ "かさ", "アンブレラ" ],
+    "urayomi": [ "パラソル", "ひがさ" ],
+    "priconneyomi": [ "ペコリーヌサマー" ]
+  },
+  "dice": {
+    "futsuyomi": [ "さいころ", "ダイス" ],
+    "urayomi": [ "ギャンブル", "りっぽうたい", "すごろく" ],
+    "priconneyomi": [  ]
+  },
+  "letter": {
+    "futsuyomi": [ "てがみ" ],
+    "urayomi": [ "レター" , "メール", "おたより", "ラブレター" ],
+    "priconneyomi": [  ]
+  },
+  "grape": {
+    "futsuyomi": [ "ブドウ", "グレープ" ],
+    "urayomi": [ "きょほう", "デラウェア" ],
+    "priconneyomi": [  ]
+  },
+  "sheep": {
+    "futsuyomi": [ "ひつじ" ],
+    "urayomi": [ "シープ", "メリーさんのひつじ" ],
+    "priconneyomi": [  ]
+  },
+  "tofu": {
+    "futsuyomi": [ "とうふ" ],
+    "urayomi": [ "もめんどうふ", "きぬごしどうふ", "ひややっこ" ],
+    "priconneyomi": [  ]
+  },
+  "duck": {
+    "futsuyomi": [ "あひる", "がちょう" ],
+    "urayomi": [ "グース" , "ダック", "とり" ],
+    "priconneyomi": [  ]
+  },
+  "dragonfly": {
+    "futsuyomi": [ "とんぼ" ],
+    "urayomi": [ "やんま", "オニヤンマ", "ドラゴンフライ" ],
+    "priconneyomi": [  ]
+  },
+  "leaf": {
+    "futsuyomi": [ "はっぱ", "このは" ],
+    "urayomi": [ "リーフ", "くさ" ],
+    "priconneyomi": [ "アオイのともだち" ]
+  },
+  "ring": {
+    "futsuyomi": [ "ゆびわ", "リング", "わっか" ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "rope": {
+    "futsuyomi": [ "なわ", "ロープ", "ひも", "つな" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "クウカのまるひアイテム", "エクスタシー" ]
+  },
+  "shield": {
+    "futsuyomi": [ "たて", "シールド" ],
+    "urayomi": [ "ガード", "ぼうぐ", "バックラー" ],
+    "priconneyomi": [ "インフェルノシールド" ]
+  },
+  "money": {
+    "futsuyomi": [ "おかね", "かね" ],
+    "urayomi": [ "マネー", "こぜに", "きんか" ],
+    "priconneyomi": [ "ルピ", "ギルドハウスかぐこうにゅう" ]
+  },
+  "dessert": {
+    "futsuyomi": [ "プリンアラモード", "デザート" ],
+    "urayomi": [ "スイーツ" ],
+    "priconneyomi": [ "ミヤコのおやつ" ]
+  },
+  "necklace": {
+    "futsuyomi": [ "ネックレス", "ペンダント" ],
+    "urayomi": [ "アクセサリー", "くびかざり" ],
+    "priconneyomi": [  ]
+  },
+  "rice": {
+    "futsuyomi": [ "いなほ" ],
+    "urayomi": [ "たんぼ", "こめ", "おこめ", "むぎ" ],
+    "priconneyomi": [  ]
+  },
+  "soy_sauce": {
+    "futsuyomi": [ "しょうゆ" ],
+    "urayomi": [ "ソイソース", "ちょうみりょう" ],
+    "priconneyomi": [  ]
+  },
+  "conveyor_belt": {
+    "futsuyomi": [ "ベルトコンベア" ],
+    "urayomi": [ "こうじょう", "ファクトリー" ],
+    "priconneyomi": [ "たいやきこうじょう" ]
+  },
+  "chandelier": {
+    "futsuyomi": [ "シャンデリア" ],
+    "urayomi": [ "あかり" ],
+    "priconneyomi": [  ]
+  },
+  "salt": {
+    "futsuyomi": [ "しお" ],
+    "urayomi": [ "ソルト", "ちょうみりょう" ],
+    "priconneyomi": [  ]
+  },
+  "whirlpool": {
+    "futsuyomi": [ "うずしお" ],
+    "urayomi": [ "ぐるぐる" ],
+    "priconneyomi": [  ]
+  },
+  "fishing_rod": {
+    "futsuyomi": [ "つりざお" ],
+    "urayomi": [ "ロッド" ],
+    "priconneyomi": [ "ルカのしゅみごと" ]
+  },
+  "pot": {
+    "futsuyomi": [ "なべ", "おなべ" ],
+    "urayomi": [ "ずんどう", "カレー", "シチュー" ],
+    "priconneyomi": [  ]
+  },
+  "seesaw": {
+    "futsuyomi": [ "シーソー" ],
+    "urayomi": [ "ゆうぐ", "ぎったんばっこん", "こうえんあそび" ],
+    "priconneyomi": [  ]
+  },
+  "brush": {
+    "futsuyomi": [ "ふで" ],
+    "urayomi": [ "しょどう" , "もうひつ", "おしゅうじ", "すずり" ],
+    "priconneyomi": [ "とーごくぶんか" ]
+  },
+  "dumbbell": {
+    "futsuyomi": [ "きんトレ", "ダンベル" ],
+    "urayomi": [ "マッスル", "ウェイトトレーニング" ],
+    "priconneyomi": [  ]
+  },
+  "ghost": {
+    "futsuyomi": [ "おばけ", "ゆうれい" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ミヤコ", "むてき" ]
+  },
+  "hiyori": {
+    "futsuyomi": [ "ヒヨリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ほっとけないよ" ]
+  },
+  "yui": {
+    "futsuyomi": [ "ユイ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ヒールオール", "マコトのおさななじみ" ]
+  },
+  "rei": {
+    "futsuyomi": [ "レイ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "じょうば" ]
+  },
+  "misogi": {
+    "futsuyomi": [ "ミソギ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "いたずらっこ" ]
+  },
+  "matsuri": {
+    "futsuyomi": [ "マツリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ヒーローみならい" ]
+  },
+  "akari": {
+    "futsuyomi": [ "アカリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ヨリのいもうと", "こあくま" ]
+  },
+  "miyako": {
+    "futsuyomi": [ "ミヤコ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ゆうれい", "プリンだいすき" ]
+  },
+  "yuki": {
+    "futsuyomi": [ "ユキ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "うつくしいボク", "ナルシスト" ]
+  },
+  "anna": {
+    "futsuyomi": [ "アンナ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "しっぷうのヘカーテ", "ちゅうにびょう" ]
+  },
+  "maho": {
+    "futsuyomi": [ "マホ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "おひめさま", "くるりんぱ" ]
+  },
+  "rino": {
+    "futsuyomi": [ "リノ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "いもうと", "あほのこ" ]
+  },
+  "hatsune": {
+    "futsuyomi": [ "ハツネ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ちょうのうりょくしょうじょ", "スヤスヤ", "シオリンのあね" ]
+  },
+  "nanaka": {
+    "futsuyomi": [ "ナナカ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "まほうしょうじょ", "サイカワ" ]
+  },
+  "kasumi": {
+    "futsuyomi": [ "カスミ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "めいたんてい", "たんてい" ]
+  },
+  "misato": {
+    "futsuyomi": [ "ミサト" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ほいくえんのせんせい" ]
+  },
+  "suzuna": {
+    "futsuyomi": [ "スズナ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "カリスマモデル", "ギャル" ]
+  },
+  "kaori": {
+    "futsuyomi": [ "カオリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "りゅうきゅうからて", "ハイタ～イ" ]
+  },
+  "io": {
+    "futsuyomi": [ "イオ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "しんまいきょうし", "ちゃんイオ" ]
+  },
+  "mimi": {
+    "futsuyomi": [ "ミミ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "うさぎさんだいすき" ]
+  },
+  "kurumi": {
+    "futsuyomi": [ "クルミ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "めいじょゆう" ]
+  },
+  "yori": {
+    "futsuyomi": [ "ヨリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ふたごのあね", "シャイ", "てんさいゲーマー" ]
+  },
+  "ayane": {
+    "futsuyomi": [ "アヤネ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ぷうきちのパートナー" ]
+  },
+  "suzume": {
+    "futsuyomi": [ "スズメ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "メイド", "おっちょこちょい" ]
+  },
+  "rin": {
+    "futsuyomi": [ "リン" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ぐうたら" ]
+  },
+  "eriko": {
+    "futsuyomi": [ "エリコ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "デストロイヤー" ]
+  },
+  "saren": {
+    "futsuyomi": [ "サレン" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ママ" ]
+  },
+  "nozomi": {
+    "futsuyomi": [ "ノゾミ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "だいにんきアイドル" ]
+  },
+  "ninon": {
+    "futsuyomi": [ "ニノン" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "トーゴクかぶれ", "えせニンジャ" ]
+  },
+  "shinobu": {
+    "futsuyomi": [ "シノブ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "うらないし" ]
+  },
+  "akino": {
+    "futsuyomi": [ "アキノ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ごれいじょう" ]
+  },
+  "mahiru": {
+    "futsuyomi": [ "マヒル" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ぼくじょうぬし", "おわらいのみち" ]
+  },
+  "yukari": {
+    "futsuyomi": [ "ユカリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "のんべえ" ]
+  },
+  "kyouka": {
+    "futsuyomi": [ "キョウカ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ゆうとうせい" ]
+  },
+  "tomo": {
+    "futsuyomi": [ "トモ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ミクマりゅう" ]
+  },
+  "shiori": {
+    "futsuyomi": [ "シオリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ハツネちゃんのいもうと" ]
+  },
+  "aoi": {
+    "futsuyomi": [ "アオイ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ぼっち", "ビービーだんのメンバー" ]
+  },
+  "chika": {
+    "futsuyomi": [ "チカ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "しょうかんじゅつし", "うたひめ" ]
+  },
+  "makoto": {
+    "futsuyomi": [ "マコト" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ユイのおさななじみ" ]
+  },
+  "ilya": {
+    "futsuyomi": [ "イリヤ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "バンパイア", "でんせつのバンパイア", "よをすべるもの" ]
+  },
+  "kuuka": {
+    "futsuyomi": [ "クウカ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ドえむ" ]
+  },
+  "tamaki": {
+    "futsuyomi": [ "タマキ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ネコむすめ", "ファントムキャッツ" ]
+  },
+  "jun": {
+    "futsuyomi": [ "ジュン" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "だんちょう" ]
+  },
+  "mifuyu": {
+    "futsuyomi": [ "ミフユ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ししょう", "こうりつちゅう" ]
+  },
+  "shizuru": {
+    "futsuyomi": [ "シズル" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "おねえちゃんだよ" ]
+  },
+  "misaki": {
+    "futsuyomi": [ "ミサキ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "おとなのレディ" ]
+  },
+  "mitsuki": {
+    "futsuyomi": [ "ミツキ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "マッドサイエンティスト", "ワンアイドデビル" ]
+  },
+  "rima": {
+    "futsuyomi": [ "リマ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "もふもふ" ]
+  },
+  "monica": {
+    "futsuyomi": [ "モニカ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "おこちゃま" ]
+  },
+  "tsumugi": {
+    "futsuyomi": [ "ツムギ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "テーラー", "レイさまファンクラブ" ]
+  },
+  "ayumi": {
+    "futsuyomi": [ "アユミ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "モブ" ]
+  },
+  "ruka": {
+    "futsuyomi": [ "ルカ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "あねご" ]
+  },
+  "djeeta": {
+    "futsuyomi": [ "ジータ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "きくうし" ]
+  },
+  "pecorine": {
+    "futsuyomi": [ "ペコリーヌ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "くいしんぼう", "おうけのそうび", "やばいですね", "プリンセス" ]
+  },
+  "kokkoro": {
+    "futsuyomi": [ "コッコロ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ガイドやく", "みこ" ]
+  },
+  "kyaru": {
+    "futsuyomi": [ "キャル" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ツンデレ", "ヤバイわよ" ]
+  },
+  "muimi": {
+    "futsuyomi": [ "ムイミ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ノウェム" ]
+  },
+  "arisa": {
+    "futsuyomi": [ "アリサ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "エルフのおんな", "もりばんみならい" ]
+  },
+  "neneka": {
+    "futsuyomi": [ "ネネカ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "メタモルレグナント", "ぶんしんたい" ]
+  },
+  "christina": {
+    "futsuyomi": [ "クリスティーナ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "レジーナゲッシュ", "ふくだんちょう" ]
+  },
+  "inori": {
+    "futsuyomi": [ "イノリ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ドラゴンブレス", "かんぶ" ]
+  },
+  "kaya": {
+    "futsuyomi": [ "カヤ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "のうきんケンカバカ" ]
+  },
+  "homare": {
+    "futsuyomi": [ "ホマレ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ギャングのボス" ]
+  },
+  "chloe": {
+    "futsuyomi": [ "クロエ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ダウナー", "テレじょのやべーやつ" ]
+  },
+  "chieru": {
+    "futsuyomi": [ "チエル" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "れちぇるちぇぽぱぴ", "テレじょのやべーやつ" ]
+  },
+  "yuni": {
+    "futsuyomi": [ "ユニ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ひきこもり", "テレじょのやべーやつ" ]
+  },
+
+
+
+  "robot": {
+    "futsuyomi": [ "ロボット" ],
+    "urayomi": [ "メカ", "からくり" ],
+    "priconneyomi": [ "なかよしえっくす", "ユニのりきさく" ]
+  },
+  "mushroom": {
+    "futsuyomi": [ "きのこ", "どくきのこ" ],
+    "urayomi": [ "マッシュルーム" ],
+    "priconneyomi": [ "ベニタケ" ]
+  },
+  "lion": {
+    "futsuyomi": [ "ライオン", "しし" ],
+    "urayomi": [ "ひゃくじゅうのおう", "たてがみ", "けもの" ],
+    "priconneyomi": [ "オルレオン" ]
+  },
+  "pencil": {
+    "futsuyomi": [ "えんぴつ", "あかえんぴつ" ],
+    "urayomi": [ "ペンシル", "ひっきようぐ" ],
+    "priconneyomi": [ "キラーペンシル" ]
+  },
+  "sun": {
+    "futsuyomi": [ "たいよう", "おひさま" ],
+    "urayomi": [ "にっこう", "はれのひ" ],
+    "priconneyomi": [  ]
+  },
+  "airship": {
+    "futsuyomi": [ "ひこうてい" ],
+    "urayomi": [ "ふね", "エアシップ", "そらのたび" ],
+    "priconneyomi": [ "モニカのかんたい" ]
+  },
+  "rose": {
+    "futsuyomi": [ "バラ", "いばら", "はな" ],
+    "urayomi": [ "ローズ" ],
+    "priconneyomi": [  ]
+  },
+  "sushi": {
+    "futsuyomi": [ "すし", "にぎりずし", "マグロ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "トゥンヌスのにぎり", "オーマのびしょく" ]
+  },
+  "mirror": {
+    "futsuyomi": [ "かがみ" ],
+    "urayomi": [ "ミラー", "エチケットアイテム" ],
+    "priconneyomi": [ "ユキのあいようひん" ]
+  },
+  "tiara": {
+    "futsuyomi": [ "ティアラ", "かんむり" ],
+    "urayomi": [ "そうしょくひん", "アクセサリー" ],
+    "priconneyomi": [ "ペコリーヌのティアラ", "おうけのそうび" ]
+  },
+  "oden": {
+    "futsuyomi": [ "おでん", "にもの", "なべ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ドラゴンテイルおでん" ]
+  },
+  "lightbulb": {
+    "futsuyomi": [ "でんきゅう", "あかり" ],
+    "urayomi": [ "はくねつきゅう", "まめでんきゅう", "ピカピカ" ],
+    "priconneyomi": [ "カスミのひらめき" ]
+  },
+  "cloud": {
+    "futsuyomi": [ "くも" ],
+    "urayomi": [ "にゅうどうぐも", "どんてん", "わたあめ" ],
+    "priconneyomi": [ "ライライ" ]
+  },
+  "axe": {
+    "futsuyomi": [ "おの", "いしおの" ],
+    "urayomi": [ "アックス" ],
+    "priconneyomi": [ "ゴブリングレートのえもの" ]
+  },
+  "onsen": {
+    "futsuyomi": [ "おんせん", "いわぶろ", "ろてんぶろ" ],
+    "urayomi": [ "めいとう" ],
+    "priconneyomi": [ "クリスティーナリゾートスパ" ]
+  },
+  "pillow": {
+    "futsuyomi": [ "まくら", "だきまくら" ],
+    "urayomi": [ "しんぐ", "ピロー" ],
+    "priconneyomi": [ "ハツネのたからもの" ]
+  },
+  "magazine": {
+    "futsuyomi": [ "ざっし" ],
+    "urayomi": [ "マガジン", "ファッションし" ],
+    "priconneyomi": [ "スズナのしゃしんしゅう" ]
+  },
+  "drum": {
+    "futsuyomi": [ "たいこ", "こだいこ" ],
+    "urayomi": [ "ドラム", "スネアドラム", "だがっき" ],
+    "priconneyomi": [  ]
+  },
+  "constellation": {
+    "futsuyomi": [ "せいざ", "てんたい", "ぎんが" ],
+    "urayomi": [ "よぞら", "ほしのかがやき" ],
+    "priconneyomi": [ "おにぎりざ" ]
+  },
+  "tomato": {
+    "futsuyomi": [ "トマト", "プチトマト" ],
+    "urayomi": [ "ばんか", "ケチャップ" ],
+    "priconneyomi": [  ]
+  },
+  "field": {
+    "futsuyomi": [ "はらっぱ", "そうげん", "のはら" ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "rainbow": {
+    "futsuyomi": [ "にじ", "レインボー", "なないろ" ],
+    "urayomi": [ "そらにかかるはし", "あめあがり" ],
+    "priconneyomi": [  ]
+  },
+  "shaved_ice": {
+    "futsuyomi": [ "かきごおり", "ブルーハワイ" ],
+    "urayomi": [ "フラッペ", "なつのふうぶつし" ],
+    "priconneyomi": [  ]
+  },
+  "butterfly": {
+    "futsuyomi": [ "ちょうちょ", "アゲハ", "クロアゲハ" ],
+    "urayomi": [ "むし", "こんちゅう", "バタフライ" ],
+    "priconneyomi": [  ]
+  },
+  "tower": {
+    "futsuyomi": [ "とう" ],
+    "urayomi": [ "タワー", "てんぼうだい", "みはりだい", "まてんろう" ],
+    "priconneyomi": [  ]
+  },
+  "ice_cream": {
+    "futsuyomi": [ "アイスクリーム", "ジェラート" ],
+    "urayomi": [ "チョコミントアイス", "ひょうか" ],
+    "priconneyomi": [ "シェフィのこうぶつ" ]
+  },
+  "donut": {
+    "futsuyomi": [ "ドーナツ" ],
+    "urayomi": [ "おやつ", "チョコドーナツ" ],
+    "priconneyomi": [  ]
+  },
+  "ticket": {
+    "futsuyomi": [ "チケット", "けん" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "スキップチケット" ]
+  },
+  "swim_ring": {
+    "futsuyomi": [ "うきわ" ],
+    "urayomi": [ "フロート", "かなづちのひっすアイテム" ],
+    "priconneyomi": [ "キャルのうきわ" ]
+  },
+  "sunglasses": {
+    "futsuyomi": [ "サングラス" ],
+    "urayomi": [ "グラサン", "くろめがね", "ハードボイルド" ],
+    "priconneyomi": [ "キャルのサングラス" ]
+  },
+  "shuriken": {
+    "futsuyomi": [ "しゅりけん" ],
+    "urayomi": [ "とびどうぐ", "にんじゃ" ],
+    "priconneyomi": [ "オーエドのみやげもの" ]
+  },
+  "house": {
+    "futsuyomi": [ "いえ", "おうち" ],
+    "urayomi": [ "ハウス", "たてもの" ],
+    "priconneyomi": [ "ギルドハウス" ]
+  },
+  "onigiri": {
+    "futsuyomi": [ "おにぎり" ],
+    "urayomi": [ "ライスボール" ],
+    "priconneyomi": [ "むげんおにぎり", "ペコリーヌのこうぶつ" ]
+  },
+  "green_pepper": {
+    "futsuyomi": [ "ピーマン" ],
+    "urayomi": [ "パプリカ", "りょくおうしょくやさい" ],
+    "priconneyomi": [ "キョウカのにがてなもの" ]
+  },
+  "chestnut": {
+    "futsuyomi": [ "くり" ],
+    "urayomi": [ "マロン", "イガイガ", "あきのみかく" ],
+    "priconneyomi": [  ]
+  },
+  "sweet_potato": {
+    "futsuyomi": [ "やきいも", "サツマイモ" ],
+    "urayomi": [ "スイートポテト", "あきのみかく", "ほかほかやきたて" ],
+    "priconneyomi": [  ]
+  },
+  "pepper": {
+    "futsuyomi": [ "とうがらし", "たかのつめ" ],
+    "urayomi": [ "チリペッパー", "スパイス" ],
+    "priconneyomi": [ "ドラゴンもどきのひのみ" ]
+  },
+  "shrimp": {
+    "futsuyomi": [ "エビ" ],
+    "urayomi": [ "シュリンプ", "うみのさち", "とれたて" ],
+    "priconneyomi": [  ]
+  },
+  "skirt": {
+    "futsuyomi": [ "スカート" ],
+    "urayomi": [ "ミニスカート", "プリーツスカート" ],
+    "priconneyomi": [  ]
+  },
+  "pants": {
+    "futsuyomi": [ "ズボン" ],
+    "urayomi": [ "ボトムス", "パンツ", "たんぱん" ],
+    "priconneyomi": [  ]
+  },
+  "airplane": {
+    "futsuyomi": [ "ひこうき" ],
+    "urayomi": [ "プロペラ", "ラジコン", "エアプレーン" ],
+    "priconneyomi": [  ]
+  },
+  "rain": {
+    "futsuyomi": [ "あめ" ],
+    "urayomi": [ "レイン", "うてん", "おおあめ" ],
+    "priconneyomi": [  ]
+  },
+  "rod": {
+    "futsuyomi": [ "つえ" ],
+    "urayomi": [ "ステッキ", "まほうのつえ" ],
+    "priconneyomi": [  ]
+  },
+  "spear": {
+    "futsuyomi": [ "やり" ],
+    "urayomi": [ "スピア", "ほこ", "ながえ" ],
+    "priconneyomi": [  ]
+  },
+  "helmet": {
+    "futsuyomi": [ "かぶと" ],
+    "urayomi": [ "よろい", "アーマー", "ぼうぐ" ],
+    "priconneyomi": [ "おうきゅうきしだんのよろい", "リビングメイル" ]
+  },
+  "key": {
+    "futsuyomi": [ "かぎ" ],
+    "urayomi": [ "キー", "マスターキー" ],
+    "priconneyomi": [  ]
+  },
+  "treasure_box": {
+    "futsuyomi": [ "たからばこ" ],
+    "urayomi": [ "トレジャーボックス", "おたから" ],
+    "priconneyomi": [ "レアドロップ" ]
+  },
+  "dragon": {
+    "futsuyomi": [ "ドラゴン" ],
+    "urayomi": [ "きょうりゅう", "ダイナソー", "でんせつのせいぶつ" ],
+    "priconneyomi": [ "ラースドラゴン" ]
+  },
+  "character": {
+    "futsuyomi": [ "もじ", "ひらがな" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ちぇる" ]
+  },
+  "shackle": {
+    "futsuyomi": [ "てかせ", "あしかせ", "こうそくぐ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "クウカのおきにいり" ]
+  },
+  "gate": {
+    "futsuyomi": [ "もん" ],
+    "urayomi": [ "こうもん", "てっぴ" ],
+    "priconneyomi": [ "セントテレサじょがくいん" ]
+  },
+  "sheffy": {
+    "futsuyomi": [ "シェフィ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ドラゴンぞくのしょうじょ" ]
+  },
+  "karin": {
+    "futsuyomi": [ "カリン" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ギルドかんりきょうかい", "ナビゲーター", "クソメガネ" ]
+  },
+  "elder_cloud": {
+    "futsuyomi": [ "エルダークラウド" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "かみなりぐも", "ライライのてした" ]
+  },
+  "sleepy_owl": {
+    "futsuyomi": [ "スリーピィオウル" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ふくろう" ]
+  },
+  "wappadanuki": {
+    "futsuyomi": [ "ワッパダヌキ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "たぬき", "こだぬき", "ちゃがま", "マスターセンリのこぶん" ]
+  },
+  "golem": {
+    "futsuyomi": [ "ゴーレム" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "がんせきのまもの", "スズメのおともだち" ]
+  },
+  "mora": {
+    "futsuyomi": [ "モーラ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "まほうせいぶつ", "ラブリーモニカのあいぼう", "はためいわくなけだま" ]
+  }
+}

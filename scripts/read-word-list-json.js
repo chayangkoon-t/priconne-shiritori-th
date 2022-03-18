@@ -7,6 +7,7 @@ let word_list = new Map();
 let result_map = new Map();
 let reverse_result_map = new Map();
 let word_list_loaded = false;
+const word_list_file = "word_list_blank.json";
 const word_list_keys = Object.freeze({
     futsuyomi: 'futsuyomi',
     urayomi: 'urayomi',
@@ -68,7 +69,7 @@ function get_npc_choice_map()
 
 function read_word_list(callback)
 {
-    const file_path = "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/word_list.json";
+    const file_path = "/" + window.location.pathname.substring(0, window.location.pathname.indexOf('/')) + window.location.pathname.split('/')[1] + "/data/" + word_list_file;
     console.log(get_colored_message(_read_word_list_js.sender_name, "Reading ", message_status.INFO) + highlight_code(file_path) + message_status.INFO + "...");
 
     return $(function () {
