@@ -1,0 +1,1005 @@
+{
+  "apple": {
+    "futsuyomi": [ "ริงโกะ" ],
+    "urayomi": [ "อปเปิล", "ผลไม้ต้องห้าม" ],
+    "priconneyomi": [  ]
+  },
+  "gorilla": {
+    "futsuyomi": [ "กอริลลา", "ยักษ์มีขน" ],
+    "urayomi": [ "พรเมต", "ฮก โฮก" ],
+    "priconneyomi": [ "มาสเตอร์อุคิคี่" ]
+  },
+  "trumpet": {
+    "futsuyomi": [ "ตร" ],
+    "urayomi": [ "ทรัมเป็ต", "ครื่องเป่า", "ป่าดังไปทำให้ปวดหู" ],
+    "priconneyomi": [  ]
+  },
+  "pineapple": {
+    "futsuyomi": [ "สัปปะรด" ],
+    "urayomi": [ "อานานัส" ],
+    "priconneyomi": [  ]
+  },
+  "ruby": {
+    "futsuyomi": [ "ทับทิม", "อัญมณีมีค่ายากที่จะหา" ],
+    "urayomi": [ "การ์เนต", "จิวเวลรี่" ],
+    "priconneyomi": [ "ข็มกลัดของอากิโนะ", "มณีแดงแห่งวิสทีเรีย" ]
+  },
+  "beer": {
+    "futsuyomi": [ "ของที่เหมือนเบียร์", "หยือก" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "บียร์นุ่มๆ", "อีเทอร์นัลจั๊ก" ]
+  },
+  "bow": {
+    "futsuyomi": [ "คันธนูและลูกศร", "ยิง" ],
+    "urayomi": [ "ธนู", "อโรว์", "บว์" ],
+    "priconneyomi": [  ]
+  },
+  "music": {
+    "futsuyomi": [ "น้ตเพลง", "จังหวะ" ],
+    "urayomi": [ "มิวสิก", "พลง", "ดเรมี", "ฟังด้วยหู" ],
+    "priconneyomi": [  ]
+  },
+  "tube": {
+    "futsuyomi": [ "อุปกรณ์ลงสีรูปภาพ" ],
+    "urayomi": [ "หลอด", "บลู", "สีฟ้า" ],
+    "priconneyomi": [  ]
+  },
+  "sword": {
+    "futsuyomi": [ "ดาบ", "ซอร์ด" ],
+    "urayomi": [ "สึรุงิ", "ของมีคม" ],
+    "priconneyomi": [ "ปริ้นเซสซอร์ด" ]
+  },
+  "glasses": {
+    "futsuyomi": [ "ว่นตา" ],
+    "urayomi": [ "ลนส์" ],
+    "priconneyomi": [ "คารินเอาไว้ใส่", "งงงวยเมื่อใส่" ]
+  },
+  "lens": {
+    "futsuyomi": [ "ว่นขยาย", "ลนส์" ],
+    "urayomi": [ "ซูม" ],
+    "priconneyomi": [ "อเทมจำเป็นของนักสืบ", "ดีเทกทีฟลูเป้" ]
+  },
+  "meat": {
+    "futsuyomi": [ "นื้อ" ],
+    "urayomi": [ "อาหาร", "มีต", "สเต็ก" ],
+    "priconneyomi": [  ]
+  },
+  "moon": {
+    "futsuyomi": [ "พระจันทร์", "ฟูลมูน" ],
+    "urayomi": [ "มูน", "ลูน่า" ],
+    "priconneyomi": [ "จันทร์งาม" ]
+  },
+  "bat": {
+    "futsuyomi": [ "ค้างคาวผี", "บท" ],
+    "urayomi": [ "ผีดูดเลือด" ],
+    "priconneyomi": [ "ด็กๆ ของอิลิยา" ]
+  },
+  "bird": {
+    "futsuyomi": [ "นก", "ปีศาจ" ],
+    "urayomi": [ "บิร์ด" ],
+    "priconneyomi": [ "ซิซ" ]
+  },
+  "shoes": {
+    "futsuyomi": [ "รองเท้า", "กือก" ],
+    "urayomi": [ "ชูส์", "บูท" ],
+    "priconneyomi": [  ]
+  },
+  "cat": {
+    "futsuyomi": [ "มว", "คท" ],
+    "urayomi": [ "จ้าเสือตัวน้อย", "หมียวเหมียว" ],
+    "priconneyomi": [ "พื่อนๆ ของทามากิ" ]
+  },
+  "goldfish": {
+    "futsuyomi": [ "ปลาทอง", "คุณปลา", "กลด์ฟิช" ],
+    "urayomi": [ "รันจู" ],
+    "priconneyomi": [  ]
+  },
+  "mouse": {
+    "futsuyomi": [ "หนู", "มาส์" ],
+    "urayomi": [ "จี๊ดๆ", "รท" ],
+    "priconneyomi": [  ]
+  },
+  "egg": {
+    "futsuyomi": [ "ข่" ],
+    "urayomi": [ "อ้ก", "ด็ก", "รังนก" ],
+    "priconneyomi": [  ]
+  },
+  "boat": {
+    "futsuyomi": [ "รือ" ],
+    "urayomi": [ "ล่องเรือ", "ชิป" ],
+    "priconneyomi": [  ]
+  },
+  "milk": {
+    "futsuyomi": [ "นม", "มิลค์" ],
+    "urayomi": [ "หน่มน้ม" ],
+    "priconneyomi": [ "อลิซาเบธ" ]
+  },
+  "chocolate": {
+    "futsuyomi": [ "ช็อกโกแลต", "ขนม" ],
+    "urayomi": [ "ท่งช็อกโกแลต", "กโก้" ],
+    "priconneyomi": [ "ดราจังชอบ" ]
+  },
+  "acorn": {
+    "futsuyomi": [ "ลูกโอ๊ก", "มล็ด" ],
+    "urayomi": [ "ปลือกแข็ง" ],
+    "priconneyomi": [ "ขนมของริน" ]
+  },
+  "strawberry": {
+    "futsuyomi": [ "อิจิโกะ", "สตอรว์เบอร์รี" ],
+    "urayomi": [ "ยม", "ผลไม้" ],
+    "priconneyomi": [  ]
+  },
+  "tiger": {
+    "futsuyomi": [ "สือ", "ทเกอร์" ],
+    "urayomi": [ "มว", "จ้าสัตว์สี่ขา" ],
+    "priconneyomi": [ "ความปราบปลื้มของมัทสึริ", "ฮีโร่ไร้เทียมทาน โทระไทเกอร์" ]
+  },
+  "rabbit": {
+    "futsuyomi": [ "ตุ๊กตายัดนุ่น", "กระต่าย", "บันนี่" ],
+    "urayomi": [ "รบบิท" ],
+    "priconneyomi": [ "อาเธอร์" ]
+  },
+  "bomb": {
+    "futsuyomi": [ "ระเบิด", "บอมบ์" ],
+    "urayomi": [ "วัตถุอันตราย", "อุปกรณ์ใช้ยิง" ],
+    "priconneyomi": [ "มิโซงิชอบเอามาใช้แกล้ง" ]
+  },
+  "watermelon": {
+    "futsuyomi": [ "ตงโม" ],
+    "urayomi": [ "คดามะ", "สิ่งของประจำฤดูร้อน", "ผลไม้รสหวาน" ],
+    "priconneyomi": [  ]
+  },
+  "horse": {
+    "futsuyomi": [ "ม้า", "ลา" ],
+    "urayomi": [ "ฮอร์ส", "กุบกับ", "ธอร์รัพเบรต" ],
+    "priconneyomi": [  ]
+  },
+  "chair": {
+    "futsuyomi": [ "ก้าอี้" ],
+    "urayomi": [ "ฟอร์นิเจอร์", "ชร์" ],
+    "priconneyomi": [ "อเทมกิลด์เฮ้าส์" ]
+  },
+  "sea": {
+    "futsuyomi": [ "ทะเล", "ชายฝั่ง", "บีช" ],
+    "urayomi": [ "สียงคลื่นกระทบ", "หาดทราย" ],
+    "priconneyomi": [ "มัลเจ้น" ]
+  },
+  "crab": {
+    "futsuyomi": [ "ปูเสฉวน" ],
+    "urayomi": [ "สัตว์น้ำจำพวกมีเปลือก" ],
+    "priconneyomi": [ "ฮอร์มิตไนต์" ]
+  },
+  "recorder": {
+    "futsuyomi": [ "ขลุ่ย", "รีคอร์เดอร์" ],
+    "urayomi": [ "ครื่องดนตรีประเภทเป่า" ],
+    "priconneyomi": [  ]
+  },
+  "book": {
+    "futsuyomi": [ "หนังสือ", "สมุดภาพ" ],
+    "urayomi": [ "นิยาย", "บุ๊ก" ],
+    "priconneyomi": [ "คัมภีร์เวทของแคล" ]
+  },
+  "fish": {
+    "futsuyomi": [ "ปลา" ],
+    "urayomi": [ "คัตสึโอะ", "มากุโระ", "ฟิช", "อุโอะ" ],
+    "priconneyomi": [  ]
+  },
+  "tree": {
+    "futsuyomi": [ "ทรี", "วันคริสต์มาส" ],
+    "urayomi": [ "ต้นส้นฟอร์", "ซานต้าคลอสโฮะโอะโอะ" ],
+    "priconneyomi": [ "ครอลที่ถูกลืม" ]
+  },
+  "candy": {
+    "futsuyomi": [ "ลูกอม", "คนดี้" ],
+    "urayomi": [ "อมยิ้ม" ],
+    "priconneyomi": [ "ขนมของคุโรเอะ" ]
+  },
+  "hammer": {
+    "futsuyomi": [ "ฮมเมอร์", "ป๊อกๆ สร้างความฮา" ],
+    "urayomi": [ "ค้อน" ],
+    "priconneyomi": [ "อาวุธชิ้นพิเศษของอิโนริ" ]
+  },
+  "star": {
+    "futsuyomi": [ "ดาว", "ห้าเหลี่ยม", "สตาร์" ],
+    "urayomi": [ "รูปทรง", "ปลาดาว", "วิ้งๆ" ],
+    "priconneyomi": [ "ลนด์โซล" ]
+  },
+  "hat": {
+    "futsuyomi": [ "หมวกผ้า", "ฮท" ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "cup": {
+    "futsuyomi": [ "ก้ว", "คอฟฟี่" ],
+    "urayomi": [ "หอมกาแฟ" ],
+    "priconneyomi": [  ]
+  },
+  "dog": {
+    "futsuyomi": [ "สุนัข", "ด๊อก" ],
+    "urayomi": [ "หมาป่า", "วูล์ฟ", "น้องหมา" ],
+    "priconneyomi": [  ]
+  },
+  "flag": {
+    "futsuyomi": [ "ธง", "ฟล็ก" ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "cake": {
+    "futsuyomi": [ "ค้ก", "ขนม" ],
+    "urayomi": [ "วันเกิด", "ง่ำๆ น่ากิน" ],
+    "priconneyomi": [ "ต้มความสัมพันธ์", "รสเบอร์รี่รวม" ]
+  },
+  "microphone": {
+    "futsuyomi": [ "มค์", "พลง", "ลฟ์" ],
+    "urayomi": [ "อุปกรณ์จำเป็นของไอดอล" ],
+    "priconneyomi": [ "บริลเลียนต์ไมค์" ]
+  },
+  "lipstick": {
+    "futsuyomi": [ "ที่ทาปาก", "ลิปสติก" ],
+    "urayomi": [ "รูจ" ],
+    "priconneyomi": [  ]
+  },
+  "mochi": {
+    "futsuyomi": [ "มจิ" ],
+    "urayomi": [ "คาร์โบไฮเดรต", "รซ์เค้ก" ],
+    "priconneyomi": [  ]
+  },
+  "fairy": {
+    "futsuyomi": [  ],
+    "urayomi": [ "ฟรี" ],
+    "priconneyomi": [ "นเวีย" ]
+  },
+  "umbrella": {
+    "futsuyomi": [ "ร่ม", "กันฝน" ],
+    "urayomi": [ "อัมเบรลล่า", "บังแดด" ],
+    "priconneyomi": [ "ปโกรีนซัมเมอร์" ]
+  },
+  "dice": {
+    "futsuyomi": [ "ลูกเต๋า", "ดช์" ],
+    "urayomi": [ "การพนัน", "ทรงลูกบาศก์", "บันไดงู" ],
+    "priconneyomi": [  ]
+  },
+  "letter": {
+    "futsuyomi": [ "จดหมาย" ],
+    "urayomi": [ "ลตเตอร์", "มล", "ประกาศ", "บอกรักทางจดหมาย" ],
+    "priconneyomi": [  ]
+  },
+  "grape": {
+    "futsuyomi": [ "องุ่น", "กรป" ],
+    "urayomi": [ "คียวโฮ", "ดลาแวร์" ],
+    "priconneyomi": [  ]
+  },
+  "sheep": {
+    "futsuyomi": [ "กะ" ],
+    "urayomi": [ "ชีป", "มรีมีลูกแกะน้อย" ],
+    "priconneyomi": [  ]
+  },
+  "tofu": {
+    "futsuyomi": [ "ต้าหู้" ],
+    "urayomi": [ "ทฟุ" ],
+    "priconneyomi": [  ]
+  },
+  "duck": {
+    "futsuyomi": [ "ป็ด", "ห่าน" ],
+    "urayomi": [ "กูส", "ดั๊ก", "นก" ],
+    "priconneyomi": [  ]
+  },
+  "dragonfly": {
+    "futsuyomi": [ "มลงปอ" ],
+    "urayomi": [ "ยันมะ", "อนิยันมะ", "ดราก้อนฟลาย" ],
+    "priconneyomi": [  ]
+  },
+  "leaf": {
+    "futsuyomi": [ "บไม้" ],
+    "urayomi": [ "ลีฟ", "หญ้า" ],
+    "priconneyomi": [ "พื่อนของอาโออิ" ]
+  },
+  "ring": {
+    "futsuyomi": [ "หวน", "ริง", "วงแหวน", "ธำมรงค์" ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "rope": {
+    "futsuyomi": [ "ชือก", "รป" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ของจำเป็นของคูกะ", "อ็กซ์ตาชี" ]
+  },
+  "shield": {
+    "futsuyomi": [ "ล่", "ชีล" ],
+    "urayomi": [ "ป้องกัน" ],
+    "priconneyomi": [ "อินเฟอร์โน่ชีลด์" ]
+  },
+  "money": {
+    "futsuyomi": [ "งิน", "สตางค์" ],
+    "urayomi": [ "มันนี", "หรียญ", "คอยน์" ],
+    "priconneyomi": [ "รูปี", "ซื้อเฟอร์นิเจอร์เข้ากลิด์เฮ้าส์" ]
+  },
+  "dessert": {
+    "futsuyomi": [ "พุดดิ้งอลาโมด", "ดเซิร์ต" ],
+    "urayomi": [ "สวีตส์" ],
+    "priconneyomi": [ "ขนมของมิยาโกะ" ]
+  },
+  "necklace": {
+    "futsuyomi": [ "สร้อย", "จี้" ],
+    "urayomi": [ "ครื่องประดับ", "อัญมณีสีน้ำเงิน" ],
+    "priconneyomi": [  ]
+  },
+  "rice": {
+    "futsuyomi": [ "ต้นข้าว" ],
+    "urayomi": [ "ท้องนา", "ข้าว", "สาลี", "ธัญพืช", "รซ์" ],
+    "priconneyomi": [  ]
+  },
+  "soy_sauce": {
+    "futsuyomi": [ "ชยุ" ],
+    "urayomi": [ "ซอยซอส", "ครื่องปรุง" ],
+    "priconneyomi": [  ]
+  },
+  "conveyor_belt": {
+    "futsuyomi": [ "สายพาน" ],
+    "urayomi": [ "รงงาน", "ฟกตอรี" ],
+    "priconneyomi": [ "ทยากิ" ]
+  },
+  "chandelier": {
+    "futsuyomi": [ "คมไฟระย้า" ],
+    "urayomi": [ "สงสว่าง" ],
+    "priconneyomi": [  ]
+  },
+  "salt": {
+    "futsuyomi": [ "กลือ", "ผงเกลือ" ],
+    "urayomi": [ "ซอลต์", "ครื่องปรุง" ],
+    "priconneyomi": [  ]
+  },
+  "whirlpool": {
+    "futsuyomi": [ "น้ำวน" ],
+    "urayomi": [ "หมุนติ้ว", "งงงวย" ],
+    "priconneyomi": [  ]
+  },
+  "fishing_rod": {
+    "futsuyomi": [ "บ็ดตกปลา" ],
+    "urayomi": [ "ร็อด" ],
+    "priconneyomi": [ "งานอดิเรกของรุกะ" ]
+  },
+  "pot": {
+    "futsuyomi": [ "หม้อ", "ต้ม" ],
+    "urayomi": [ "กงกะหรี่", "สตูว์" ],
+    "priconneyomi": [  ]
+  },
+  "seesaw": {
+    "futsuyomi": [ "กระดานหก" ],
+    "urayomi": [ "ครื่องเล่น", "ยกเยก", "ล่นที่สวนสาธารณะ" ],
+    "priconneyomi": [  ]
+  },
+  "brush": {
+    "futsuyomi": [ "พู่กัน" ],
+    "urayomi": [ "การเขียนพู่กัน", "ปรงเขียนหมึก", "ขียนพู่กัน", "ที่ฝนหมึก", "อุปกรณ์วาดภาพ" ],
+    "priconneyomi": [ "วัฒนธรรมดินแดนตะวันออก" ]
+  },
+  "dumbbell": {
+    "futsuyomi": [ "ล่นกล้าม", "ดัมเบล" ],
+    "urayomi": [ "มัสเซิล", "วทเทรนนิ่ง", "ยกเวท" ],
+    "priconneyomi": [  ]
+  },
+  "ghost": {
+    "futsuyomi": [ "ผี", "วิญญาณ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "มิยาโกะ", "ร้เทียมทาน" ]
+  },
+  "hiyori": {
+    "futsuyomi": [ "ฮิโยริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ปล่อยไว้ไม่ได้หรอก" ]
+  },
+  "yui": {
+    "futsuyomi": [ "ยุย" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ฮีลออล", "พื่อนสมัยเด็กของมาโคโตะ" ]
+  },
+  "rei": {
+    "futsuyomi": [ "รย์" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ขี่ม้า" ]
+  },
+  "misogi": {
+    "futsuyomi": [ "มิโซงิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ด็กจอมแกล้ง" ]
+  },
+  "matsuri": {
+    "futsuyomi": [ "มัทสึริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ฮีโร่ฝึกหัด" ]
+  },
+  "akari": {
+    "futsuyomi": [ "อาคาริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "น้องสาวฝาแฝด", "ปีศาจน้อย" ]
+  },
+  "miyako": {
+    "futsuyomi": [ "มิยาโกะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "วิญญาณ", "ชอบพุดดิ้งที่สุด" ]
+  },
+  "yuki": {
+    "futsuyomi": [ "ยูกิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ตัวเราผู้งดงาม", "หลงตัวเอง" ]
+  },
+  "anna": {
+    "futsuyomi": [ "อันนะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ฮคาทีสลาตัน", "จูนิเบียว" ]
+  },
+  "maho": {
+    "futsuyomi": [ "มาโฮะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "องค์หญิง", "คุรุรินป้า" ]
+  },
+  "rino": {
+    "futsuyomi": [ "ริโนะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "น้องสาว", "ด็กบ๊อง" ]
+  },
+  "hatsune": {
+    "futsuyomi": [ "ฮาสึเนะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "สาวน้อยพลังเหนือธรรมชาติ", "คร่อกฟี้", "พี่สาวของชิโอริน" ]
+  },
+  "nanaka": {
+    "futsuyomi": [ "นานากะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "สาวน้อยเวทมนต์", "คิวท์สุดๆ" ]
+  },
+  "kasumi": {
+    "futsuyomi": [ "คาสุมิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "สุดยอดนักสืบ", "นักสืบ" ]
+  },
+  "misato": {
+    "futsuyomi": [ "มิซาโตะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คุณครูสถานรับเลี้ยงเด็ก" ]
+  },
+  "suzuna": {
+    "futsuyomi": [ "สึซึนะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นางแบบสุดฮอต", "กล" ]
+  },
+  "kaori": {
+    "futsuyomi": [ "คาโอริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ริวกิว", "บายดีม้าย" ]
+  },
+  "io": {
+    "futsuyomi": [ "อิโอะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คุณครูมือใหม่", "จังอิโอะ" ]
+  },
+  "mimi": {
+    "futsuyomi": [ "มิมิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คุณกระต่าย" ]
+  },
+  "kurumi": {
+    "futsuyomi": [ "คุรุมิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นักแสดงสาวผู้โด่งดัง" ]
+  },
+  "yori": {
+    "futsuyomi": [ "ยริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "พี่สาวฝาแฝด", "ขี้อาย", "กมเมอร์อัจฉริยะ" ]
+  },
+  "ayane": {
+    "futsuyomi": [ "อายาเนะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คู่หูของปูคิจิ" ]
+  },
+  "suzume": {
+    "futsuyomi": [ "สึซึเมะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "มด", "ซุ่มซ่าม" ]
+  },
+  "rin": {
+    "futsuyomi": [ "ริน" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ขี้เกียจ" ]
+  },
+  "eriko": {
+    "futsuyomi": [ "อริโกะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ดรสทรอยเยอร์" ]
+  },
+  "saren": {
+    "futsuyomi": [ "ซาเร็น" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "หม่าม้า" ]
+  },
+  "nozomi": {
+    "futsuyomi": [ "นโซมิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "อดอลสุดโด่งดัง" ]
+  },
+  "ninon": {
+    "futsuyomi": [ "นิน่อน" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คลั่งไคล้ดินแดนตะวันออก", "บูชิโด" ]
+  },
+  "shinobu": {
+    "futsuyomi": [ "ชิโนบุ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นักทำนาย" ]
+  },
+  "akino": {
+    "futsuyomi": [ "อากิโนะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คุณหนู" ]
+  },
+  "mahiru": {
+    "futsuyomi": [ "มาฮิรุ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "จ้าของฟาร์ม", "ส้นทางของตลก" ]
+  },
+  "yukari": {
+    "futsuyomi": [ "ยูคาริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นักดื่ม" ]
+  },
+  "kyouka": {
+    "futsuyomi": [ "คียวกะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นักเรียนดีเด่น" ]
+  },
+  "tomo": {
+    "futsuyomi": [ "ทโมะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คล็ดลับวิชามิคุมะ" ]
+  },
+  "shiori": {
+    "futsuyomi": [ "ชิโอริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "น้องสาวของฮาสีเนะจัง" ]
+  },
+  "aoi": {
+    "futsuyomi": [ "อาโออิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ดดเดี่ยว", "สมาชิกกลุ่ม บีบี" ]
+  },
+  "chika": {
+    "futsuyomi": [ "จิกะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ผู้ใช้เวทอัญเชิญ", "นักร้องหญิง" ]
+  },
+  "makoto": {
+    "futsuyomi": [ "มาโคโตะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "พื่อนสมัยเด็กของยุย" ]
+  },
+  "ilya": {
+    "futsuyomi": [ "อิลิยา" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "วมไพร์", "ตำนานแวมไพร์", "ผู้ครองรัตติกาล" ]
+  },
+  "kuuka": {
+    "futsuyomi": [ "คูกะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "สุดเอ็ม" ]
+  },
+  "tamaki": {
+    "futsuyomi": [ "ทามากิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ด็กสาวแมว", "ฟนธ่อมแคทส์" ]
+  },
+  "jun": {
+    "futsuyomi": [ "จุน" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ม่ทัพ" ]
+  },
+  "mifuyu": {
+    "futsuyomi": [ "มิฟุยุ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "อาจารย์", "น้นประสิทธิภาพ" ]
+  },
+  "shizuru": {
+    "futsuyomi": [ "ชิซึรุ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "พี่สาวเองจ้ะ" ]
+  },
+  "misaki": {
+    "futsuyomi": [ "มิซากิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ลดี้เต็มตัว" ]
+  },
+  "mitsuki": {
+    "futsuyomi": [ "มิสึกิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นักวิทยาศาสตร์คลั่ง", "วันอายเดวิล" ]
+  },
+  "rima": {
+    "futsuyomi": [ "ริมะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นุ่มนิ่ม" ]
+  },
+  "monica": {
+    "futsuyomi": [ "มนิก้า" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ด็กน้อย" ]
+  },
+  "tsumugi": {
+    "futsuyomi": [ "สึมุกิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ช่างตัดเย็บ", "ฟนคลับของท่านเรย์" ]
+  },
+  "ayumi": {
+    "futsuyomi": [ "อายูมิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ตัวประกอบ" ]
+  },
+  "ruka": {
+    "futsuyomi": [ "รุกะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ลูกพี่" ]
+  },
+  "djeeta": {
+    "futsuyomi": [ "จีต้า" ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "pecorine": {
+    "futsuyomi": [ "ปโกรีน" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "คนกินเก่ง", "อาภรณ์ราชวงศ์", "จ่มไปเลยนะคะ", "ยูสเทียน่า" ]
+  },
+  "kokkoro": {
+    "futsuyomi": [ "คกโคโระ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "หน้าที่นำทาง", "มิโกะ" ]
+  },
+  "kyaru": {
+    "futsuyomi": [ "คล" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ซึนเดเระ", "จ่มไปเลย!" ]
+  },
+  "muimi": {
+    "futsuyomi": [ "มุอิมิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "นแวม" ]
+  },
+  "arisa": {
+    "futsuyomi": [ "อาริสะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "หญิงชาวเอลฟ์", "ผู้พิทักษ์ป่าฝึกหัด" ]
+  },
+  "neneka": {
+    "futsuyomi": [ "นเนกะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "มตามอร์เรกแนนท์", "ร่างแยก" ]
+  },
+  "christina": {
+    "futsuyomi": [ "คริสทีน่า" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ท่านหญิงแห่งคำสาบาน", "รองแม่ทัพ" ]
+  },
+  "inori": {
+    "futsuyomi": [ "อิโนริ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ดราก้อนเบรส", "ผู้บัญชาการ" ]
+  },
+  "kaya": {
+    "futsuyomi": [ "คายะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "จอมบ้าวิวาทสมองกล้าม" ]
+  },
+  "homare": {
+    "futsuyomi": [ "ฮมาเระ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "บอสของแก๊ง" ]
+  },
+  "chloe": {
+    "futsuyomi": [ "คุโรเอะ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "ผู้มืดมน", "นักเรียนเทเรซาสุดแสนอันตราย" ]
+  },
+  "chieru": {
+    "futsuyomi": [ "จิเอรุ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "รเจรุเจโปะปาปิ", "นักเรียนเทเรซาสุดแสนอันตราย" ]
+  },
+  "yuni": {
+    "futsuyomi": [ "ยูนิ" ],
+    "urayomi": [  ],
+    "priconneyomi": [ "พวกชอบเก็บตัว", "นักเรียนเทเรซาสุดแสนอันตราย" ]
+  },
+
+
+
+  "robot": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "mushroom": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "lion": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "pencil": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "sun": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "airship": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "rose": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "sushi": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "mirror": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "tiara": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "oden": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "lightbulb": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "cloud": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "axe": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "onsen": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "pillow": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "magazine": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "drum": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "constellation": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "tomato": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "field": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "rainbow": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "shaved_ice": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "butterfly": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "tower": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "ice_cream": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "donut": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "ticket": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "swim_ring": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "sunglasses": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "shuriken": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "house": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "onigiri": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "green_pepper": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "chestnut": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "sweet_potato": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "pepper": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "shrimp": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "skirt": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "pants": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "airplane": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "rain": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "rod": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "spear": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "helmet": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "key": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "treasure_box": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "dragon": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "character": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "shackle": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "gate": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "sheffy": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "karin": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "elder_cloud": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "sleepy_owl": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "wappadanuki": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "golem": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  },
+  "mora": {
+    "futsuyomi": [  ],
+    "urayomi": [  ],
+    "priconneyomi": [  ]
+  }
+}

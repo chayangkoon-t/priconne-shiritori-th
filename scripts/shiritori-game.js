@@ -133,7 +133,7 @@ function undo_phrase()
             }
         }
 
-        // HIDE ん CHARACTER HIT TEXT
+        // HIDE - CHARACTER HIT TEXT
         document.getElementById("n-character-hit-text").hidden = true;
 
         // UPDATE LATEST SELECTION
@@ -277,7 +277,8 @@ function get_possible_words(phrase)
         // COLLECT POSSIBLE PHRASES FROM WORD
         for (let i = 0 ; i < word_data.get(word_list_keys.futsuyomi).length ; i++)
         {
-            let first_character = word_data.get(word_list_keys.futsuyomi)[i][0];
+            //let first_character = [0];
+            let first_character = get_first_character(word_data.get(word_list_keys.futsuyomi)[i])
             if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.futsuyomi)[i]] : word_list_keys.futsuyomi });
@@ -285,7 +286,7 @@ function get_possible_words(phrase)
         }
         for (let i = 0 ; i < word_data.get(word_list_keys.urayomi).length ; i++)
         {
-            let first_character = word_data.get(word_list_keys.urayomi)[i][0];
+            let first_character = get_first_character(word_data.get(word_list_keys.urayomi)[i]);
             if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.urayomi)[i]] : word_list_keys.urayomi });
@@ -293,7 +294,7 @@ function get_possible_words(phrase)
         }
         for (let i = 0 ; i < word_data.get(word_list_keys.priconneyomi).length ; i++)
         {
-            let first_character = word_data.get(word_list_keys.priconneyomi)[i][0];
+            let first_character = get_first_character(word_data.get(word_list_keys.priconneyomi)[i]);
             if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.priconneyomi)[i]] : word_list_keys.priconneyomi });
@@ -312,11 +313,11 @@ function get_possible_words(phrase)
     table_html += "</tr></tbody>";
     document.getElementById("selection-table").innerHTML = table_html;
 
-    // POSSIBLE WORD COUNT = 0? A ん WAS PROBABLY HIT
+    // POSSIBLE WORD COUNT = 0? A - WAS PROBABLY HIT
     if (counter === 0)
     {
         document.getElementById("n-character-hit-text").hidden = false;
-        console.log(get_colored_message(shiritori_game.sender_name, highlight_code("ん") + " was hit! Game Over!", message_status.INFO));
+        console.log(get_colored_message(shiritori_game.sender_name, highlight_code("-") + " was hit! Game Over!", message_status.INFO));
     }
 
     function add_word_to_table_html(word_id, phrase_data)
@@ -540,13 +541,13 @@ function build_all_choices()
             // ALSO BLACKLIST ANY URAYOMI WORDS SINCE THEY WILL NEVER BE SELECTED BY KAYA AT THE START
             // ~~ALSO BLACKLIST ANY FUTSUYOMI WORDS THAT AREN'T THE FIRST ONE~~
             //   4/30/2021: SEEMS THE ABOVE COMMENT ISN'T THE CASE ANYMORE!!!
-            // ALSO BLACKLIST ANY FUTSUYOMI WORDS THAT END WITH ん
+            // ALSO BLACKLIST ANY FUTSUYOMI WORDS THAT END WITH -
             if (words[i][Object.keys(words[i])[0]] !== word_list_keys.priconneyomi &&
                 words[i][Object.keys(words[i])[0]] !== word_list_keys.urayomi &&
                 word_id !== last_word_id)
             {
                 // last_word_id = word_id;
-                if (get_last_character(Object.keys(words[i])[0]) !== "ん")
+                if (get_last_character(Object.keys(words[i])[0]) !== "-")
                 {
                     add_word_to_table_html(word_id, words[i]);
                 }
@@ -612,6 +613,24 @@ function get_last_character(phrase)
     if (last_character === "ษ") { last_character = "-"; }
 
     return last_character;
+}
+
+function get_first_character(phrase)
+{
+    var vowel_list = ["ะ", "า", "ิ", "ี", "ึ", "ื", "ุ", "ู", "เ", "แ", "โ", "ไ", "ใ", "ฤ", "ๅ", "ำ", "ๆ", "ฯ", "่", "้", "๊", "๋", "็", "์"];
+
+    let first_character = phrase[0];
+
+    if (vowel_list.indexOf(first_character) > -1)
+    {
+        first_character = phrase[1];
+        if (vowel_list.indexOf(first_character) > -1)
+        {
+            first_character = phrase[2];
+        }
+    }
+
+    return first_character;
 }
 
 function toggle_rush_mode()
