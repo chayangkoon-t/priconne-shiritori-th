@@ -19,7 +19,7 @@ To unlock this new word catalog, you must do the following:
   - Play one game.
 
 Completing this new catalog (100%) will grant the following title as a reward:<br>
-![Word Master II](https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/webpage/icon_emblem_11001131.png) 
+![Word Master II](https://raw.githubusercontent.com/chayangkoon-t/priconne-shiritori/master/images/webpage/icon_emblem_11001131.png) 
 -->
 
 ## How to Use
