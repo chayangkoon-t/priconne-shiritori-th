@@ -7,7 +7,7 @@ let word_list = new Map();
 let result_map = new Map();
 let reverse_result_map = new Map();
 let word_list_loaded = false;
-const word_list_file = "word_list_blank.json";
+const word_list_file = "word_list_th.json";
 const word_list_keys = Object.freeze({
     futsuyomi: 'futsuyomi',
     urayomi: 'urayomi',
@@ -22,8 +22,8 @@ read_word_list(function () {
     console.log(get_colored_message(_read_word_list_js.sender_name, "Word list loaded!", message_status.SUCCESS));
     word_list_loaded = true;
 
-    // ADD ん TO RESULT MAP
-    result_map.set("ん", []);
+    // ADD - TO RESULT MAP
+    result_map.set("-", []);
 });
 
 function print_result_map()
@@ -46,8 +46,8 @@ function get_missing_phrase_map()
         phrase_array = phrase_array.filter(n => !collection.includes(n));
         missing_phrase_map.set(character, phrase_array);
     });
-    // ADD ん
-    missing_phrase_map.set("ん", []);
+    // ADD -
+    missing_phrase_map.set("-", []);
 
     return missing_phrase_map;
 }
@@ -56,13 +56,14 @@ function get_npc_choice_map()
 {
     // JUST RETURN A MAP OF POSSIBLE NPC SELECTIONS, AKA FILTER OUT PRICONNEYOMI
     let npc_phrase_map = new Map();
+    console.log(npc_phrase_map);
     result_map.forEach(function (phrase_array, character)
     {
         phrase_array = phrase_array.filter(n => n.indexOf(word_list_keys.priconneyomi) < 0);
         npc_phrase_map.set(character, phrase_array);
     });
-    // ADD ん
-    npc_phrase_map.set("ん", []);
+    // ADD -
+    npc_phrase_map.set("-", []);
 
     return npc_phrase_map;
 }
@@ -102,11 +103,28 @@ function read_word_list(callback)
         });
     });
 
+    function get_first_character(phrase)
+    {
+        var vowel_list = ["ะ", "า", "ิ", "ี", "ึ", "ื", "ุ", "ู", "เ", "แ", "โ", "ไ", "ใ", "ฤ", "ๅ", "ำ", "ๆ", "ฯ", "่", "้", "๊", "๋", "็", "์"];
+        let first_character = phrase[0];
+
+        if (vowel_list.indexOf(first_character) > -1)
+        {
+            first_character = phrase[1];
+            if (vowel_list.indexOf(first_character) > -1)
+            {
+                first_character = phrase[2];
+            }
+        }
+
+        return first_character;
+    }
+
     function add_to_result_map(word_id, word_array, phrase_type)
     {
         word_array.forEach(function (phrase)
         {
-            let first_character = wanakana.toHiragana(phrase[0]);
+            let first_character = get_first_character(phrase);
             let last_character = get_last_character(phrase);
             let word = word_id + ";" + phrase + ";" + phrase_type;
 

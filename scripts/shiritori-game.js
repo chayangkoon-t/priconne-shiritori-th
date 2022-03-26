@@ -278,8 +278,7 @@ function get_possible_words(phrase)
         for (let i = 0 ; i < word_data.get(word_list_keys.futsuyomi).length ; i++)
         {
             let first_character = word_data.get(word_list_keys.futsuyomi)[i][0];
-            if (end_character === first_character ||
-                wanakana.toKatakana(end_character) === first_character)
+            if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.futsuyomi)[i]] : word_list_keys.futsuyomi });
             }
@@ -287,8 +286,7 @@ function get_possible_words(phrase)
         for (let i = 0 ; i < word_data.get(word_list_keys.urayomi).length ; i++)
         {
             let first_character = word_data.get(word_list_keys.urayomi)[i][0];
-            if (end_character === first_character ||
-                wanakana.toKatakana(end_character) === first_character)
+            if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.urayomi)[i]] : word_list_keys.urayomi });
             }
@@ -296,8 +294,7 @@ function get_possible_words(phrase)
         for (let i = 0 ; i < word_data.get(word_list_keys.priconneyomi).length ; i++)
         {
             let first_character = word_data.get(word_list_keys.priconneyomi)[i][0];
-            if (end_character === first_character ||
-                wanakana.toKatakana(end_character) === first_character)
+            if (end_character === first_character)
             {
                 possible_words.push({ [word_data.get(word_list_keys.priconneyomi)[i]] : word_list_keys.priconneyomi });
             }
@@ -388,7 +385,7 @@ function get_possible_words(phrase)
                     kaya_can_select_new_phrase = true;
                     kaya_phrases_string += "  - " + kaya_phrase + "\n";
                 }
-
+                // if (missing_phrases = undefined)
                 if (missing_phrases.length > 0)
                 {
                     user_can_select_new_phrase = true;
@@ -592,20 +589,28 @@ function build_all_choices()
 
 function get_last_character(phrase)
 {
-    var vowel1_list = ["ะ", "า", "ิ", "ี", "ึ", "ื", "ุ", "ู", "ำ", "าะ"]
-    // let last_character = phrase[phrase.length - 1] === "า" ? phrase[phrase.length - 2] : phrase[phrase.length - 1];
-    let last_character = phrase[phrase.length - 1];
-    var vowel_check = (vowel1_list.indexOf(last_character) > -1);
-    if (vowel_check > -1) { last_character = phrase[phrase.length - 2] }
-    if (phrase === "เกรป") { last_character = phrase[phrase.length - 3]; }
+    var vowel_list = ["ะ", "า", "ิ", "ี", "ึ", "ื", "ุ", "ู", "เ", "แ", "โ", "ไ", "ใ", "ฤ", "ๅ", "ำ", "ๆ", "ฯ", "่", "้", "๊", "๋", "็", "์"];
 
-    // if (last_character === "ィ") { last_character = "イ"; }
-    // if (last_character === "ょ") { last_character = "よ"; }
-    // if (last_character === "ゃ") { last_character = "や"; }
-    // if (last_character === "ュ") { last_character = "ユ"; }
-    // if (last_character === "ゅ") { last_character = "ゆ"; }
-    // if (last_character === "ャ") { last_character = "や"; }
-    // return wanakana.toHiragana(last_character);
+    let last_character = phrase[phrase.length - 1];
+
+    if (vowel_list.indexOf(last_character) > -1)
+    {
+        last_character = phrase[phrase.length - 2];
+        if (vowel_list.indexOf(last_character) > -1)
+        {
+            last_character = phrase[phrase.length - 3];
+            if (vowel_list.indexOf(last_character) > -1)
+            {
+                last_character = phrase[phrase.length - 4];
+            }
+        }
+    }
+
+    if (last_character === "ศ") { last_character = "-"; }
+    if (last_character === "ญ") { last_character = "-"; }
+    if (last_character === "ณ") { last_character = "-"; }
+    if (last_character === "ษ") { last_character = "-"; }
+
     return last_character;
 }
 

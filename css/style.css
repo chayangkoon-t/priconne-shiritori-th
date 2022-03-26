@@ -96,6 +96,7 @@ div.urayomi {
 div.priconneyomi {
     color: rgb(255, 127, 170) !important;
 }
+
 /* CSS FOR WORD SELECTION BUTTON END */
 
 /* IMAGE HIGHLIGHTS START */
@@ -118,6 +119,7 @@ img.gold-outline {
     outline: 5px solid gold;
     outline-offset: -6px;
 }
+
 /* IMAGE HIGHLIGHTS END */
 
 /* CSS FOR WORD LIST START */
@@ -135,6 +137,7 @@ div.word-list-text {
     font-size: 24px;
     text-shadow: 1px 1px 2px #000000;
 }
+
 /* CSS FOR WORD LIST END */
 
 /* CSS FOR LATEST SELECTION START */
@@ -164,6 +167,7 @@ div.latest-selection-character {
 #latest-selection {
     height: 220px;
 }
+
 /* CSS FOR LATEST SELECTION END */
 
 button.rush-mode-button {
@@ -190,8 +194,10 @@ hr {
     -webkit-filter: opacity(50%);
     filter: opacity(50%);
 }
+
 .grayscale {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
 
@@ -210,8 +216,52 @@ img.divider {
 
 .text-outline {
     text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+/* CSS */
+.button-rd {
+    align-items: center;
+    appearance: none;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: CircularStd, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s, background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.button-rd:active,
+.button-rd:focus {
+    outline: none;
+}
+
+.button-rd:hover {
+    background-position: -20px -20px;
+}
+
+.button-rd:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
 }

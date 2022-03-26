@@ -5,30 +5,30 @@
 
     <link rel="icon" href="images/game/yuni.png">
 
-    <title>Princess Connect! Re:Dive - Shiritori Helper</title>
-    <meta name="title" content="Princess Connect! Re:Dive - Shiritori Helper"/>
+    <title>Princess Connect! Re:Dive - Shiritori Helper (TH)</title>
+    <meta name="title" content="Princess Connect! Re:Dive - Shiritori Helper (TH)"/>
 
     <!-- META DATA -->
-    <meta name="description" content="Help for the Shiritori Minigame ('Great Battle! Shiritori Dragons') introduced in the 'Dragon Explorers' event in 'Princess Connect! Re:Dive' (プリンセスコネクト! Re:Dive).">
-    <meta name="author" content="S'pugn">
-    <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Shiritori, S'pugn">
+    <meta name="description" content="ตัวช่วยสำหรับปลดล๊อคคำในมินิเกม ศึกดวลเกมต่อคำดราก้อนส์ ('Great Battle! Shiritori Dragons') จากอีเว้นท์ 'นักสำรวจมังกร' เกม 'Princess Connect! Re:Dive' (プリンセスコネクト! Re:Dive).">
+    <meta name="author" content="S'pugn, GhosTK1lleRs">
+    <meta name="keywords" content="Princess Connect Re:Dive, プリンセスコネクト! Re:Dive, Shiritori, S'pugn, GhosTK1lleRs">
 
     <!-- OPEN GRAPH / FACEBOOK META DATA -->
     <meta property="og:title" content="Princess Connect! Re:Dive - Shiritori Helper"/>
-    <meta property="og:description" content="Help for the Shiritori Minigame ('Great Battle! Shiritori Dragons') introduced in the 'Dragon Explorers' event in 'Princess Connect! Re:Dive' (プリンセスコネクト! Re:Dive)."/>
+    <meta property="og:description" content="ตัวช่วยสำหรับปลดล๊อคคำในมินิเกม ศึกดวลเกมต่อคำดราก้อนส์ ('Great Battle! Shiritori Dragons') จากอีเว้นท์ 'นักสำรวจมังกร' เกม 'Princess Connect! Re:Dive' (プリンセスコネクト! Re:Dive)."/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/game/yuni.png"/>
+    <meta property="og:image" content="https://raw.githubusercontent.com/chayangkoon-t/priconne-shiritori-th/master/images/game/yuni.png"/>
     <meta property="og:image:width" content="64"/>
     <meta property="og:image:height" content="64"/>
-    <meta property="og:url" content="https://expugn.github.io/priconne-shiritori/"/>
+    <meta property="og:url" content="https://chayangkoon-t.github.io/priconne-shiritori-th/"/>
     <meta property="og:locale" content="en_US"/>
 
     <!-- TWITTER META DATA -->
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:site" content="@eSpugn"/>
-    <meta name="twitter:creator" content="@eSpugn"/>
+    <meta name="twitter:site" content="@ChayangkoonTona"/>
+    <meta name="twitter:creator" content="@ChayangkoonTona"/>
     <meta name="twitter:title" content="Princess Connect! Re:Dive - Shiritori Helper"/>
-    <meta name="twitter:description" content="Help for the Shiritori Minigame ('Great Battle! Shiritori Dragons') introduced in the 'Dragon Explorers' event in 'Princess Connect! Re:Dive' (プリンセスコネクト! Re:Dive)."/>
+    <meta name="twitter:description" content="ตัวช่วยสำหรับปลดล๊อคคำในมินิเกม ศึกดวลเกมต่อคำดราก้อนส์ ('Great Battle! Shiritori Dragons') จากอีเว้นท์ 'นักสำรวจมังกร' เกม 'Princess Connect! Re:Dive' (プリンセスコネクト! Re:Dive)."/>
 
     <!-- SCRIPTS -->
     <script src="scripts/jquery-3.4.1.min.js"></script>
@@ -52,7 +52,7 @@
 <!-- TITLE -->
 <div>
     <h1 class="title webpage-text">Princess Connect! Re:Dive</h1>
-    <h2 class="title webpage-text">Shiritori Helper</h2>
+    <h2 class="title webpage-text">ศึกดวลเกมต่อคำดราก้อนส์</h2>
 </div>
 
 <hr>
@@ -62,9 +62,9 @@
     <!-- SETTINGS AREA -->
     <div>
         <br>
-        <button onclick="open_word_list()">Open Word List</button><button style="margin-left: 30px" onclick="show_tips()">Show Tips</button>
+        <button class="button-rd" onclick="open_word_list()">อัลบั้มคำศัพท์</button><button class="button-rd" style="margin-left: 30px" onclick="show_tips()">คำแนะนำ</button>
         <br><br>
-        <button onclick="reset_game()">Reset Game</button>
+        <button class="button-rd" onclick="reset_game()">เริ่มตาใหม่</button>
         <br><br>
     </div>
 
@@ -73,7 +73,7 @@
     <!-- GAME STATUS AREA -->
     <div>
         <h2 id="turn-text" class="webpage-text centerText" hidden>Turn <span id="turn-counter">0</span></h2>
-        <h3 id="game-start-tip" class="webpage-text centerText">Select the card <span style="color:gold">Kaya</span> selected to begin.</h3>
+        <h3 id="game-start-tip" class="webpage-text centerText">เลือกคำที่ <span style="color:gold">คายะ</span> ใช้เพื่อเริ่มเกม</h3>
         <div id="latest-selection" class="webpage-text centerText" hidden>
             <img id="latest-selection-image" src="images/game/placeholder.png" alt=""><br>
             <img class="latest-selection-character-circle" src="images/webpage/character_circle.png" alt=""><br>
@@ -81,23 +81,23 @@
             <div id="latest-selection-text" class="centerText" style="color: gold;">phrase_text</div>
         </div>
         <div class="centerText">
-            <button id="undo-button" onclick="undo_phrase()" disabled hidden>Made a mistake? Undo!</button>
+            <button class="button-rd" id="undo-button" onclick="undo_phrase()" disabled hidden>กดผิดหรอ? ย้อนกลับ!</button>
         </div>
-        <h3 id="your-turn-text" class="webpage-text centerText" hidden><span style="color:gold">Your turn.</span><br>Select the option you chose in game.</h3>
-        <h3 id="opponent-turn-text" class="webpage-text centerText" hidden><span style="color:gold">Kaya</span>'s turn.<br>Select the card that <span style="color:gold">Kaya</span> selected.</h3>
+        <h3 id="your-turn-text" class="webpage-text centerText" hidden><span style="color:gold">ตาของคุณ</span><br>เลือกคำที่คุณตอบไปในเกม.</h3>
+        <h3 id="opponent-turn-text" class="webpage-text centerText" hidden>ตาของ<span style="color:gold"> คายะ </span><br>เลือกคำที่ <span style="color:gold">คายะ</span> ตอบ</h3>
         <h3 id="rush-mode-button-text" class="centerText" hidden>
             <button id="rush-mode-button" class="rush-mode-button low-opacity" onclick="toggle_rush_mode()">
                 <img class="rush-mode-button" title="Toggle Rush Mode" src="images/webpage/rush.png" alt="">
             </button>
         </h3>
-        <h3 id="rush-mode-text" class="webpage-text centerText" hidden><span style="color:gold">Rush Mode</span> activated.<br>Select the cards that you collected during rush mode.<br><br><span style="color:red">All selections will be saved to your word list.</span></h3>
+        <h3 id="rush-mode-text" class="webpage-text centerText" hidden>เปิด <span style="color:gold">Rush Mode</span> แล้ว.<br>เลือกการ์ดที่คุณตอบ.<br><br><span style="color:red">การ์ดทั้งหมดที่ถูกเลือกจะถูกบันทึกลงในอัลบั้มคำศัพท์.</span></h3>
     </div>
 
     <hr>
 
     <!-- SELECTION AREA -->
     <div>
-        <h3 id="n-character-hit-text" class="webpage-text centerText" hidden>The <span style="color:gold">ん</span> character has been hit.<br>There are no more possible selections.<br><br>Click <span style="color:gold">Reset Game</span> to play again.</h3>
+        <h3 id="n-character-hit-text" class="webpage-text centerText" hidden>The <span style="color:gold">-</span> character has been hit.<br>ไม่มีคำที่เป็นไปได้สำหรับตัวเลือกนี้.<br><br>กด <span style="color:gold">เริ่มตาใหม่</span> เพื่อเริ่มเกมใหม่.</h3>
         <table class="centerTable">
             <tbody id="selection-table"></tbody>
         </table>
@@ -107,37 +107,39 @@
 <!-- WORD LIST DIV -->
 <div id="word-list-div" hidden>
     <br>
-    <button onclick="close_word_list()">Close Word List</button><button style="margin-left: 30px" onclick="toggle_word_search()">Word Search</button>
+    <button class="button-rd" onclick="close_word_list()">ปิดอัลบั้มคำศัพท์</button>
+    <button class="button-rd" style="margin-left: 30px" onclick="toggle_word_search()">ค้นหาคำศัพท์</button>
     <br><br>
-    <div class="futsuyomi webpage-text">フツウヨミ (<span id="futsuyomi-count">0</span>/<span id="futsuyomi-total-count">0</span>)</div>
+    <div class="futsuyomi webpage-text">ทั่วไป (<span id="futsuyomi-count">0</span>/<span id="futsuyomi-total-count">0</span>)</div>
     <br>
-    <div class="urayomi webpage-text">ウラヨミ (<span id="urayomi-count">0</span>/<span id="urayomi-total-count">0</span>)</div>
+    <div class="urayomi webpage-text">อื่น (<span id="urayomi-count">0</span>/<span id="urayomi-total-count">0</span>)</div>
     <br>
-    <div class="priconneyomi webpage-text">プリコネヨミ (<span id="priconneyomi-count">0</span>/<span id="priconneyomi-total-count">0</span>)</div>
+    <div class="priconneyomi webpage-text">ปริ้น (<span id="priconneyomi-count">0</span>/<span id="priconneyomi-total-count">0</span>)</div>
     <br>
-    <button onclick="reset_data()">Reset Data</button>
+    <button class="button-rd" onclick="reset_data()">Reset Data</button>
     <br><br>
     <div id="word-list-contents">
-        <h3 class="webpage-text centerText">Progress can be added or removed by <span style="color: gold">clicking</span> on the phrase.</h3>
+        <h3 class="webpage-text centerText">สามารถเพิ่มหรือลบคำศัพท์ได้โดยการ <span style="color: gold">กด</span> ที่คำศัพท์.</h3>
         <br>
         <div id="word-list"></div>
     </div>
-    <h3 id="word-list-hidden-warning" class="webpage-text centerText" hidden>Word list progress cannot be modified while a game is in progress.<br><span style="color: gold">Reset the game to make the word list visible again.</span></h3>
+    <h3 id="word-list-hidden-warning" class="webpage-text centerText" hidden>ไม่สามารถแก้ไขได้ในขณะที่เกมกำลังเริ่มอยู่.<br><span style="color: gold">กดเริ่มเกมใหม่เพื่อแสดงอัลบั้มคำศัพท์ทั้งหมด.</span></h3>
 </div>
 
 <!-- WORD SEARCH DIV -->
 <div id="word-search-div" hidden>
     <br>
-    <button onclick="toggle_word_search()">Close Word Search</button><button id="reset-word-search-button" style="margin-left: 30px" onclick="reset_word_search()" hidden>Reset Word Search</button>
+    <button class="button-rd" onclick="toggle_word_search()">ปิดอัลบั้มคำศัพท์</button>
+    <button class="button-rd" id="reset-word-search-button" style="margin-left: 30px" onclick="reset_word_search()" hidden>รีเซ็ตการค้นหาคำศัพท์</button>
     <br><br>
-    <label for="low-opacity-word-search-checkbox" class="webpage-text">Mark Obtained Words? : </label>
+    <label for="low-opacity-word-search-checkbox" class="webpage-text">แสดงคำศัพท์ที่ได้รับแล้ว? : </label>
     <input id="low-opacity-word-search-checkbox"
-           type="checkbox"
-           onchange="build_phrase_list()">
-    <label for="result-search-checkbox" class="webpage-text" style="margin-left: 30px">Find Resulting Words? : </label>
+            type="checkbox"
+            onchange="build_phrase_list()">
+    <label for="result-search-checkbox" class="webpage-text" style="margin-left: 30px">หาผลลัพธ์? : </label>
     <input id="result-search-checkbox"
-           type="checkbox"
-           onchange="create_table(_phrase_table_js.word_searched)">
+            type="checkbox"
+            onchange="create_table(_phrase_table_js.word_searched)">
     <br><br>
     <hr>
     <div id="phrase-table-div" hidden>
@@ -152,88 +154,92 @@
 <!-- TIPS DIV -->
 <div id="tips-div" hidden>
     <br>
-    <button onclick="hide_tips()">Hide Tips</button>
+    <button class="button-rd" onclick="hide_tips()">ปิดคำแนะนำ</button>
     <br><br>
 
     <hr>
     <h2 class="webpage-text centerText">Card Highlighting</h2>
     <p class="webpage-text">
-        Cards are highlighted based off the chance you can collect a new phrase.<br><br>
+        การ์ดจะถูกแสดงตามโอกาสที่คุณสามารถรวบรวมคำศัพท์ใหม่ได้<br><br>
         <img src="images/game/yuni.png" style="max-height: 64px" class="priconneyomi" alt=""><br>
-        A <span style="color: rgb(255, 127, 170); font-weight: bold">red</span> color surrounding the card means that <span style="color: gold">Kaya</span> and the Player has a chance of both choosing a new phrase, depending on <span style="color: gold">Kaya</span>'s choice.<br>
-        <span style="color: gold; font-weight: bold">This should be the highest priority card to select if there are no new cards available.</span>
+        <span style="color: rgb(255, 127, 170); font-weight: bold">สีชมพู</span> รอบการ์ดหมายความว่า <span style="color: gold">คายะ</span> และผู้เล่นมีโอกาสเลือกคำศัพท์ใหม่ขึ้นอยู่กับการเลือกของ <span style="color: gold">คายะ</span><br>
+        <span style="color: gold; font-weight: bold">นี่ควรเป็นบัตรคำที่มีลำดับความสำคัญสูงสุดในการเลือกหากไม่มีบัตรคำใหม่</span>
         <br><br>
         <img src="images/game/yuni.png" style="max-height: 64px" class="futsuyomi" alt=""><br>
-        A <span style="color: rgb(115, 175, 85); font-weight: bold">green</span> color surrounding the card means that <span style="color: gold">Kaya</span> has a chance of choosing a new phrase.
+        <span style="color: rgb(115, 175, 85); font-weight: bold">สีเขียว</span> รอบการ์ดหมายความว่า <span style="color: gold">คายะ</span> มีโอกาสเลือกบัตรคำใหม่
         <br><br>
         <img src="images/game/yuni.png" style="max-height: 64px" class="urayomi" alt=""><br>
-        A <span style="color: rgb(46, 169, 255); font-weight: bold">blue</span> color surrounding the card means that the Player has a chance of choosing a new phrase on their next turn, depending on <span style="color: gold">Kaya</span>'s choice.
+        <span style="color: rgb(46, 169, 255); font-weight: bold">สีน้ำเงิน</span> รอบการ์ดหมายความว่า ผู้เล่นมีโอกาสเลือกบัตรคำใหม่ในเทิร์นถัดไป ขึ้นอยู่กับการเลือกของ <span style="color: gold">คายะ</span>
         <br><br>
         <img src="images/game/yuni.png" style="max-height: 64px" class="gold-outline" alt=""><br>
-        On <span style="color: gold">Kaya</span>'s turn, cards that are highlighted <span style="color: gold; font-weight: bold">gold</span> have new phrases for the Player if <span style="color: gold">Kaya</span> selects them.
+        ในตาของ <span style="color: gold">คายะ</span> การ์ดที่ไฮไลท์ <span style="color: gold; font-weight: bold">สีเหลือง</span> มีคำศัพท์ใหม่สำหรับผู้เล่นถ้า <span style="color: gold">คายะ</span> เลือกการ์ดนั้น.
         <br><br>
         <img src="images/game/yuni.png" style="max-height: 64px" alt=""><br>
-        No coloring means that there is no chance <span style="color: gold">Kaya</span> or the Player will obtain a new phrase by the Player's next turn.
+        ไม่มีกรอบความว่าไม่มีโอกาสที่ <span style="color: gold">คายะ</span> หรือผู้เล่นจะได้รับคำศัพท์ใหม่ภายในเทิร์นถัดไปของผู้เล่น
         <br><br><br>
-        Only one color will highlight the card, but there can be other options available.<br>
-        You can see these options by hovering over the card.
+        มีเพียงสีเดียวที่จะไฮไลต์การ์ด แต่จะมีตัวเลือกอื่นๆ ให้เลือก<br>
+        คุณสามารถดูตัวเลือกเหล่านี้ได้โดยวางเมาส์เหนือการ์ด
         <br><br>
-        Cards will ONLY be highlighted <span style="color: rgb(255, 127, 170); font-weight: bold">Red</span>, <span style="color: rgb(115, 175, 85); font-weight: bold">Green</span>, or <span style="color: rgb(46, 169, 255); font-weight: bold">Blue</span> on the Player's turn.<br>
-        Cards will ONLY be highlighted <span style="color: gold; font-weight: bold">Gold</span> on <span style="color: gold">Kaya</span>'s turn.
+        การ์ดจะถูกไฮไลท์เป็น <span style="color: rgb(255, 127, 170); font-weight: bold">สีชมพู</span>, <span style="color: rgb(115, 175, 85); font-weight: bold">สีเขียว</span> <span style="color: rgb(46, 169, 255); font-weight: bold">สีน้ำเงิน</span> ในตาของผู้เล่นเท่านั้น<br>
+        การ์ดจะถูกไฮไลท์เป็น <span style="color: gold; font-weight: bold">สีเหลือง</span> ในตาของ <span style="color: gold">คายะ</span>
         <br><br>
-        Color Priority:<br>
-        <span style="color: rgb(255, 127, 170); font-weight: bold">Red Color</span> > <span style="color: rgb(115, 175, 85); font-weight: bold">Green Color</span> > <span style="color: rgb(46, 169, 255); font-weight: bold">Blue Color</span>
+        ลำดับความสำคัญ:<br>
+        <span style="color: rgb(255, 127, 170); font-weight: bold">สีชมพู</span> > <span style="color: rgb(115, 175, 85); font-weight: bold">สีเขียว</span> > <span style="color: rgb(46, 169, 255); font-weight: bold">สีน้ำเงิน</span>
     </p>
 
     <hr>
 
     <h2 class="webpage-text centerText">Image Styling Meanings</h2>
     <p class="webpage-text">
-        Cards may have different styling to help you get more information out of them.<br><br>
+        การ์ดอาจมีรูปแบบที่แตกต่างกันไปเพื่อช่วยให้คุณได้รับข้อมูลเพิ่มเติม<br><br>
         <img src="images/game/yuni.png" style="max-height: 64px" class="low-opacity" alt=""><br>
-        A card with low opacity means that you have already collected the phrase it has.<br>
-        Clicking on the card will not help you fill up your word album as a result.
+        การ์ดที่มีความทึบหมายความว่าคุณได้รวบรวมคำศัพท์นี้แล้ว<br>
+        การคลิกที่การ์ดจะไม่ช่วยเติมคำในอัลบั้มของคุณ
         <br><br>
         <img src="images/game/yuni.png" style="max-height: 64px" class="grayscale" alt=""><br>
-        A card that is grayscale means that this card will not normally be available.<br>
-        Cards can only be grayscale if it is <span style="color: gold">Kaya</span>'s turn and if the card is a "<span style="color: rgb(255, 127, 170); font-weight: bold">Priconneyomi (プリコネヨミ)</span>" phrase.
+        การ์ดที่เป็นสีเทาหมายความว่าการ์ดใบนี้จะไม่สามารถใช้ได้ตามปกติ<br>
+        การ์ดจะเป็นระดับสีเทาได้ก็ต่อเมื่อเป็นตาของ <span style="color: gold">คายะ</span> และการ์ดเป็นรูปแบบ "<span style="color: rgb(255, 127, 170); font-weight: bold">ปริ้น (Priconneyomi)</span>"
         <br>
-        <span style="color: gold">Kaya</span> will NEVER use a "<span style="color: rgb(255, 127, 170); font-weight: bold">Priconneyomi</span>" card, so if a "<span style="color: rgb(255, 127, 170); font-weight: bold">Priconneyomi</span>" is available, you should prioritize using that card if possible.
+        <span style="color: gold">คายะ</span> จะไม่ใช้คำศัพท์ที่เป็น "<span style="color: rgb(255, 127, 170); font-weight: bold">ปริ้น (Priconneyomi)</span>" ดังนั้นถ้า "<span style="color: rgb(255, 127, 170); font-weight: bold">ปริ้น (Priconneyomi)</span>" สามารถใช้ได้ คุณควรจัดลำดับความสำคัญโดยใช้บัตรนั้นถ้าเป็นไปได้
     </p>
 
     <hr>
 
     <h2 class="webpage-text centerText">Tooltip (Title) Information</h2>
     <p class="webpage-text">
-        While the game is in progress, the Player can hover over a card to reveal more information about it.
+        ในขณะที่เกมกำลังดำเนินอยู่ ผู้เล่นสามารถวางเมาส์เหนือการ์ดเพื่อเปิดเผยข้อมูลเพิ่มเติม
         <br><br>
-        <img src="images/game/yuni.png" style="max-height: 64px" alt="" title="" onload="this.title = 'ユニ\n\n'+
-            'Kaya has a chance of choosing a new phrase!\n'+
-            '  - rabbit;にんぎよう;futsuyomi\n'+
-            '  - ninon;ニノン;futsuyomi\n'+
+        <img src="images/game/yuni.png" style="max-height: 64px" alt="" title="" onload="this.title = 'ยูนิ\n\n'+
+            'คายะ has a chance of choosing a new phrase!\n'+
+            '  - rabbit;กระต่าย;futsuyomi\n'+
+            '  - ninon;นิน่อน;futsuyomi\n'+
             '\n'+
             'Player has a chance of choosing a new phrase!\n'+
-            '  - meat;にく;futsuyomi -> (14 New Choices)\n'+
-            '  - cat;にやんこ;urayomi -> (15 New Choices)\n'+
-            '  - rabbit;にんぎよう;futsuyomi -> (14 New Choices)\n'+
+            '  - meat;เนื้อ;futsuyomi -> (14 New Choices)\n'+
+            '  - cat;แมว;urayomi -> (15 New Choices)\n'+
+            '  - rabbit;กระต่าย;futsuyomi -> (14 New Choices)\n'+
             '\n'+
-            'Kaya and Player has a chance of choosing new phrases!\n'+
-            '  - rabbit;にんぎよう;futsuyomi -> (14 New Choices)'">
+            'คายะ and Player has a chance of choosing new phrases!\n'+
+            '  - rabbit;กระต่าย;futsuyomi -> (14 New Choices)'">
         <br>
-        <span style="color: gold">Hover your cursor over this card to see some example information.</span>
+        <span style="color: gold">วางเคอร์เซอร์เหนือการ์ดใบนี้เพื่อดูข้อมูลตัวอย่าง</span>
         <br><br>
-        You can find the card's phrase on the top.
+        คุณสามารถดูคำศัพท์ของการ์ดที่ด้านบน
         <br><br>
-        If the card is highlighted, additional information will be displayed.
+        หากบัตรถูกไฮไลท์ ข้อมูลเพิ่มเติมจะปรากฏขึ้น
         <br><br>
-        Cards capable of obtaining a <span style="color: rgb(115, 175, 85); font-weight: bold">green</span> highlight will display the available phrases <span style="color: gold">Kaya</span> will select from.
+        การ์ดที่สามารถได้รับ <span style="color: rgb(115, 175, 85); font-weight: bold">สีเขียว</span> จะแสดงคำศัพท์ที่ใช้ได้ที่ <span style="color: gold">คายะ</span> จะเลือก
         <br><br>
-        Cards capable of obtaining a <span style="color: rgb(46, 169, 255); font-weight: bold">blue</span> highlight will display the phrase(s) <span style="color: gold">Kaya</span> can choose from to reveal the new phrases the Player can choose from.<br>
-        The amount of possible new choices will also be displayed.
+        การ์ดที่สามารถได้รับ <span style="color: rgb(46, 169, 255); font-weight: bold">สีน้ำเงิน</span> จะแสดงคำศัพท์ที่ใช้ได้ที่ <span style="color: gold">คายะ</span> สามารถเลือกเพื่อแสดงคำศัพท์ใหม่ที่ผู้เล่นสามารถเลือกได้<br>
+        จำนวนตัวเลือกใหม่ที่เป็นไปได้จะปรากฏขึ้นด้วย
         <br><br>
-        Cards capable of obtaining a <span style="color: rgb(255, 127, 170); font-weight: bold">red</span> highlight will display the phrase <span style="color: gold">Kaya</span> needs to select as well as the amount of new phrases the Player can choose from.
+        การ์ดที่สามารถได้รับ <span style="color: rgb(255, 127, 170); font-weight: bold">สีชมพู</span> จะแสดงคำศัพท์ที่ใช้ได้ที่ <span style="color: gold">คายะ</span> จำเป็นต้องเลือกรวมถึงจำนวนคำศัพท์ใหม่ที่ผู้เล่นสามารถเลือกได้
         <br><br>
-        For the best efficiency, it would be wise to pause the minigame and consider your choices for the best chance of getting a new phrase.
+        เพื่อประสิทธิภาพที่ดีที่สุด คุณควรหยุดมินิเกมชั่วคราวและพิจารณาตัวเลือกของคุณสำหรับโอกาสที่ดีที่สุดในการรับคำศัพท์ใหม่
+        <br><br>
+        <small>ผลงานนี้ถูกทำขึ้นมาในเวลาว่างเพื่อหาความรู้และฝึกฝนทักษะของผมเอง หากมีข้อผิดพลาดหรือติชมสามารถติดต่อได้ที่ Facebook ส่วนตัวได้เลยครับ</small>
+        <br>
+        <small>ปล. ภาษาไทยเป็นภาษาที่ประมวลผลตัดคำยากเป็นอันดับต้นๆของโลก อาจมีการ์ดบางตัวที่ตัดคำผิดและผมหาไม่เจอ หากพบคำที่มีปัญหาแล้วแจ้งเข้ามาจะเป็นพระคุณมากครับ</small>
     </p>
 
 </div>
@@ -248,20 +254,31 @@
 </body>
 
 <footer>
-    <p class="footer webpage-text">Made With <span style="color:#ff4d4d">❤</span> By S'pugn 
+    <p class="footer webpage-text">เวอร์ชั่นภาษาไทยโดย GhosTK1lleRs 
+        <img class="footer" style="object-fit: contain;" src="images/webpage/photo_crop.jpg" alt="">
+        <a href="https://www.facebook.com/GhosTK1lleRs" target="_blank" style="text-decoration: none;">
+            <img class="footer" src="images/webpage/facebook-icon.png" style="text-decoration: none; width: 36px; height: 36px; top: 13px;" alt="Facebook">
+        </a>
+        <a href="https://github.com/chayangkoon-t/priconne-shiritori-th" target="_blank" style="text-decoration: none;">
+            <img class="footer" src="images/webpage/GitHub-Mark-Light-32px.png" style="text-decoration: none; width: 24px; height: 24px;" alt="GitHub">
+        </a>
+    </p>
+    <p class="footer webpage-text">Original work By S'pugn 
         <img class="footer" src="images/webpage/HAhaa.png" alt="">
         <a href="https://github.com/Expugn/priconne-shiritori" target="_blank" style="text-decoration: none;">
             <img class="footer" src="images/webpage/GitHub-Mark-Light-32px.png" style="text-decoration: none; width: 24px; height: 24px;" alt="GitHub">
         </a>
     </p>
-    <p class="footer webpage-text">เวอร์ชั่นภาษาไทย <span style="color:#ff4d4d">❤</span> By GhosTK1lleRs 
-        <img class="footer" src="images/webpage/HAhaa.png" alt="">
-        <a href="https://github.com/chayangkoon-t/priconne-shiritori-th" target="_blank" style="text-decoration: none;">
-            <img class="footer" src="images/webpage/GitHub-Mark-Light-32px.png" style="text-decoration: none; width: 24px; height: 24px;" alt="GitHub">
-        </a>
-    </p>
 </footer>
-
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+    kofiWidgetOverlay.draw('chayangkoon', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#f45d22',
+        'floating-chat.donateButton.text-color': '#fff'
+    });
+</script>
 <script>
     // LOCAL STORAGE SUPPORT DOES NOT EXIST
     if (typeof(Storage) === "undefined")
