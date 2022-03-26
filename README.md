@@ -1,52 +1,55 @@
 # Princess Connect! Re:Dive Shiritori Helper<br>(priconne-shiritori)
 
-URL: <https://expugn.github.io/priconne-shiritori/>
+URL: <https://chayangkoon-t.github.io/priconne-shiritori-th/>
 
 ## Information
-This is a tool that helps non-Japanese speakers complete the 
-`Great Battle! Shiritori Dragons` minigame that was introduced with the 
-`Dragon Explorers` event.
+นี่คือเครื่องมือที่ช่วยในการเก็บคำศัพท์
+มินิเกม `ศึกดวลเกมต่อคำดราก้อนส์` 
+จากอีเว้นท์ `นักสำรวจมังกร`.
 
-Although this tool can be used just to easily clear the minigame, it 
-also helps you figure out the words you need to complete the word catalog.
+เครื่องมือนี้สามารถใช้เพื่อเคลียร์มินิเกมได้
+และยังช่วยให้คุณเข้าใจคำศัพท์ที่จำเป็นในการกรอกรายการคำศัพท์
 
-Completing the word catalog (100%) grants the following title as a reward:<br>
-![Word Master](https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/webpage/icon_emblem_11001041.png)
+การทำรายการคำศัพท์ให้สำเร็จ (100%) จะได้รับฉายาต่อไปนี้เป็นรางวัล<br>
+![Word Master](https://raw.githubusercontent.com/chayangkoon-t/priconne-shiritori/master/images/webpage/icon_emblem_11001041.png)
 
-As of `April 30, 2021`, the word catalog was updated to include `248` new words.<br>
+<!-- As of `April 30, 2021`, the word catalog was updated to include `248` new words.<br>
 To unlock this new word catalog, you must do the following:
   - Read the event story for `Inori SOS!! Time Traveling Dragons` (`イノリＳＯＳ！！　タイムトラベル・ドラゴンズ`)
   - Play one game.
 
 Completing this new catalog (100%) will grant the following title as a reward:<br>
-![Word Master II](https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/webpage/icon_emblem_11001131.png)
+![Word Master II](https://raw.githubusercontent.com/Expugn/priconne-shiritori/master/images/webpage/icon_emblem_11001131.png) 
+-->
 
 ## How to Use
-1. Open the tool URL in a web browser (<https://expugn.github.io/priconne-shiritori/>)
-2. If you have existing progress already...
+1. เปิด URL ของเครื่องมือในเว็บเบราว์เซอร์ (<https://chayangkoon-t.github.io/priconne-shiritori-th/>)
+2. หากคุณมีความคืบหน้าอยู่แล้ว...
 
-    1. Click `Open Word List`
-    2. Click the "phrase buttons" for the phrases you already have
-    3. Confirm that your phrase count matches the amount on the top of the page
-    4. Click `Close Word List` if everything looks correct
+    1. คลิ๊ก `อัลบั้มคำศัพท์`
+    2. คลิก "บัตรคำ" สำหรับคำที่คุณมีอยู่แล้ว
+    3. ตรวจสอบให้แน่ใจว่าจำนวนคำของคุณตรงกับจำนวนที่ด้านบนของหน้า
+    4. คลิก 'ปิดอัลบั้มคำศัพท์' หากทุกอย่างถูกต้อง
       
-3. Start the `Great Battle! Shiritori Dragons` minigame
-4. Look at the card **Kaya** chooses, pause the minigame and select that card.
-5. A list of possible options will be displayed on the tool. Find a phrase 
-that you need or that is good enough to continue if you can not locate any phrases you need.
-6. Eventually, you may enter a `Rush` state. If you can manage to select multiple cards during this time, 
-turn on `Rush Mode` by clicking the button that only appears on **Kaya**'s turn.
-7. Repeat until the minigame ends. When the game is over, reset the board by clicking the `Reset Game` button.
+3. เริ่ม `การต่อสู้ครั้งยิ่งใหญ่! มินิเกมของมังกรชิริโทริ
+4. ดูการ์ด **คายะ** เลือก หยุดมินิเกมชั่วคราวและเลือกการ์ดนั้น
+5. รายการตัวเลือกที่เป็นไปได้จะแสดงบนเครื่องมือ ค้นหาคำศัพท์
+ที่คุณต้องการหรือดีพอที่จะดำเนินการต่อ หากคุณไม่สามารถค้นหาคำศัพท์ที่ต้องการได้
+6. ในสุดท้าย คุณอาจเข้าสู่สถานะ 'Rush' คุณสามารถเลือกไพ่หลายใบได้ในช่วงเวลานี้
+เปิด 'Rush Mode' โดยคลิกที่ปุ่มที่ปรากฏเฉพาะในเทิร์นของ **คายะ**
+7. ทำซ้ำจนกว่ามินิเกมจะจบลง เมื่อเกมจบลง ให้รีเซ็ตบอร์ดโดยคลิกที่ปุ่ม 'เริ่มเกมใหม่'
 
 ## Information/Data Credits
 ### Word Data
-- ~~`AppMedia`: [Website](https://appmedia.jp/priconne-redive)~~
-- ~~`GameWith`: [Website](https://gamewith.jp/pricone-re/)~~
-- As of `April 30, 2021`, all word data is taken from the game's database.
+- `Starduzt`: [Website](https://www.facebook.com/StarduztLive/)
+- `Starduzt`: ["WordSheet"](https://docs.google.com/spreadsheets/d/1DXxr1Z4w2No81hrRMeVJ3O3H7cce3KskqILLGEzO9v0/edit?usp=sharing)
+- `Takumi-San`: ["WordSheet"](https://docs.google.com/spreadsheets/d/1Wa6E9L-64yP3y_hhKJS8uUhKFEedZFQrmEumtCPgeIw/htmlview?fbclid=IwAR1A6Gh5dFsVRv84iYzz8cZTSAMjkzpRaO-96A9rj5TlDxzJZyBD9mCQMyU#gid=0)
+
+- อัพเดทล่าสุด `27-03-2022`
 
 ## Other Stuff
-This is a non-profit fan project with the purpose of practice and entertainment.<br>
-All characters and assets belong to their respective owners.
+นี่เป็นโครงการแฟนคลับที่ไม่แสวงหาผลกำไรโดยมีจุดประสงค์เพื่อฝึกฝนและความบันเทิง<br>
+ตัวละครและทรัพย์สินทั้งหมดเป็นของเจ้าของที่เกี่ยวข้อง
 
-**Project** began on November 2, 2019.<br>
-**Game Update 2** released April 30, 2021.
+**Project** began on 19-03-2022.<br>
+**Release 1.0** released 27-03-2022 00:05
