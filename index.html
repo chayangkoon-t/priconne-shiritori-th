@@ -110,13 +110,15 @@
     <button class="button-rd" onclick="close_word_list()">ปิดอัลบั้มคำศัพท์</button>
     <button class="button-rd" style="margin-left: 30px" onclick="toggle_word_search()">ค้นหาคำศัพท์</button>
     <br><br>
+    
     <div class="futsuyomi webpage-text">ทั่วไป (<span id="futsuyomi-count">0</span>/<span id="futsuyomi-total-count">0</span>)</div>
     <br>
     <div class="urayomi webpage-text">อื่น (<span id="urayomi-count">0</span>/<span id="urayomi-total-count">0</span>)</div>
     <br>
     <div class="priconneyomi webpage-text">ปริ้น (<span id="priconneyomi-count">0</span>/<span id="priconneyomi-total-count">0</span>)</div>
     <br>
-    <button class="button-rd" onclick="reset_data()">Reset Data</button>
+    <button class="button-rd" onclick="select_invert_words()">เลือกคำตรงข้าม(เลือกทั้งหมด)</button>
+    <button class="button-rd" style="margin-left: 30px" onclick="reset_data()">Reset Data</button>
     <br><br>
     <div id="word-list-contents">
         <h3 class="webpage-text centerText">สามารถเพิ่มหรือลบคำศัพท์ได้โดยการ <span style="color: gold">กด</span> ที่คำศัพท์.</h3>
