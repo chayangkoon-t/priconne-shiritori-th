@@ -666,8 +666,8 @@ function check_if_word_complete(word_id) {
     return true;
 }
 
-function select_invert_words() {
-    if (window.confirm("ต้องการเลือกการ์ดทั้งหมดหรือไม่?\nการเลือกการ์ดทั้งหมด ให้ทำการ 'Reset Data' ให้คำทั้งหมด เป็น 0.")) {
+function select_invert_phrase() {
+    if (window.confirm("ต้องการเลือกการ์ดคำตรงข้ามหรือไม่?\nการเลือกการ์ดทั้งหมด ให้ทำการ 'Reset Data' ให้คำทั้งหมด เป็น 0.")) {
 
         var buttons = document.getElementsByClassName('word-list-text');
 
