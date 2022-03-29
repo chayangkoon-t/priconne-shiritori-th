@@ -52,7 +52,7 @@ function create_table(desired_word)
     if (!document.getElementById("result-search-checkbox").checked)
     {
         let dw_data = desired_word.split(';');
-        let dw_fc = wanakana.toHiragana(dw_data[1][0]);
+        let dw_fc = get_first_character(dw_data[1]);
 
         // INSERT INFO FROM DESIRED WORD INTO TREE (NAME / IMAGE / CLASS)
         chart_config["nodeStructure"]["text"]["name"] = dw_data[1] + " [" + get_last_character(dw_data[1]) + "]";
